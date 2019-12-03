@@ -7,7 +7,7 @@ public class KDistanceNode {
 
 		Node(int item) {
 			data = item;
-			left = right = null;
+			left = right = null; 
 		}
 
 	}
