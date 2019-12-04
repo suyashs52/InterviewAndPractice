@@ -10,6 +10,10 @@ public class AddTwoFraction {
 	static public void code() {
 		int[] a = { 1, 2 };
 		int[] b = { 3, 2 };
+		if(a[1]<0) {
+			a[1]=-a[1];
+			a[0]=-a[0];
+		}
 		int[] c = addFraction(a, b);
 		System.out.println(c[0] + "/" + c[1]);
 		c = addFraction(new int[] { 1, 3 }, new int[] { 3, 9 });
