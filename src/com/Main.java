@@ -1,5 +1,6 @@
 package com;
 
+import com.array.QuickSort;
 import com.array.SortWaveForm;
 
 public class Main {
@@ -11,7 +12,8 @@ public class Main {
 		// AvgHgstMrks.code();
 		// ArryAnargram.code();
 		// TrappingWater.code();
-		SortWaveForm.code();
+		// SortWaveForm.code();
+		QuickSort.code();
 
 	}
 }
