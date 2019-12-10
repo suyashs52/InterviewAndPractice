@@ -4,10 +4,10 @@ public class QuickSort {
 	public static void code() {
 		int[] arr = { 5, 4, 3, 10, 2, 20, 6 };
 		quicksort(arr, 0, arr.length - 1);
-		SortWaveForm.print(arr);
+		print(arr);
 		arr = new int[] { 7, 6, 5, 4, 3, 2, 1 };
 		quicksort(arr, 0, arr.length - 1);
-		SortWaveForm.print(arr);
+		print(arr);
 	}
 
 	public static void quicksort(int[] arr, int l, int h) {
@@ -39,5 +39,13 @@ public class QuickSort {
 
 		return j;
 
+	}
+
+	static void print(int[] a) {
+		for (int i : a) {
+			System.out.print(i + ",");
+
+		}
+		System.out.println();
 	}
 }
