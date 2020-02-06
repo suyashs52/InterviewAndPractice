@@ -17,4 +17,16 @@ public class Common {
 // a*b=gcd*lcm
 		return (a * b) / gcd(a, b);
 	}
+
+	public static int ncr(int n, int r) {
+		return fact(n) / (fact(r) * fact(n - r));
+	}
+
+	public static int fact(int n) {
+		int res = 1;
+		for (int i = 2; i < n + 1; i++) {
+			res *= i;
+		}
+		return res;
+	}
 }

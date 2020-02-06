@@ -1,11 +1,15 @@
 package com;
 
-import com.array.QuickSort;
-import com.array.SortWaveForm;
+import java.io.IOException;
+
+import com.array.MinSwap;
+import com.array.Queue;
+import com.dp.MatrixExponenFibo;
+import com.spoj.MMASS;
 
 public class Main {
 
-	public static void main(String... str) {
+	public static void main(String... str) throws NumberFormatException, IOException {
 		// DecodingDigit.code();
 		// AddTwoFraction.code();
 		// Median2SortedArray.code();
@@ -13,7 +17,13 @@ public class Main {
 		// ArryAnargram.code();
 		// TrappingWater.code();
 		// SortWaveForm.code();
-		QuickSort.code();
+		// QuickSort.code();
+
+		//System.out.println(Common.ncr(4, 1));
+		// Queue.code();
+		//MinSwap.code();
+		//MatrixExponenFibo.code();
+		MMASS.code();
 
 	}
 }
