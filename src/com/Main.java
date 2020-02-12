@@ -8,6 +8,7 @@ import com.chef.COMPILER;
 import com.chef.CricketBatManf;
 import com.dp.MatrixExponenFibo;
 import com.spoj.ANARC09A;
+import com.spoj.HISTOGRA;
 import com.spoj.MMASS;
 import com.spoj.ONP;
 
@@ -31,6 +32,7 @@ public class Main {
 		// COMPILER.code();
 		// CricketBatManf.code();
 		// ONP.code1();
-		ANARC09A.code();
+		// ANARC09A.code();
+		HISTOGRA.code();
 	}
 }
