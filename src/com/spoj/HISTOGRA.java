@@ -15,51 +15,51 @@ public class HISTOGRA {
 		Parser in = new Parser(System.in);
 		long inp = in.nextLong();
 		while (inp != 0) {
-			Stack<Integer> digits = new Stack<>();
-			Stack<Long> sums = new Stack<>();
-			Long max = 0l;
-			long[] hist = new long[(int) inp];
-			for (int i = 0; i < inp; i++) {
-				hist[i] = in.nextLong();
-			}
-			long max_area = 0;
-			int top;
-			long area_with_top;
-			// 7 6 2 5 4 5 1 6 0
-			int i = 0;
-			while (i < inp) {
-				if (digits.empty() || hist[digits.peek()] <= hist[i]) {
-					System.out.println(i);
-					System.out.println("value " + hist[i]);
-					digits.push(i++);
 
+			int testCase = (int) inp;
+			Stack<Long> st = new Stack<>();
+			Stack<Integer> stin = new Stack<>();
+			long maxarea = 0l;
+			long area = 0l;
+			 
+			for (int i = 0; i < testCase; i++) {
+				long l = in.nextLong();
+				if (st.empty() || st.peek() <= l) {
+					stin.push(i);
+					st.push(l);
 				} else {
-					top = digits.peek();
-					digits.pop();
-					System.out.println("index " + top);
-					System.out.println("element " + hist[top]);
-					System.out.println("multiply " + (digits.empty() ? i : (i - digits.peek() - 1)));
-					area_with_top = hist[top] * (digits.empty() ? i : (i - digits.peek() - 1));
-
-					if (max_area < area_with_top) {
-						max_area = area_with_top;
+					// [1456]4-> [144],5*2|6*1=10
+					int lastGreatIndex=-1;
+					while (!st.empty() && st.peek() > l) {
+						area = (i - stin.peek()) * st.peek();
+						if (maxarea < area)
+							maxarea = area;
+						lastGreatIndex=stin.pop();
+						st.pop();
 					}
-				}
-			}
+					st.push(l);
+					//because next smallest value should start from last large value for 
+					// greater area
+					stin.push(lastGreatIndex);
 
-			while (digits.empty()) {
-				top = digits.peek();
-				digits.pop();
-				area_with_top = hist[top] * (digits.empty() ? i : (i - digits.peek() - 1));
-				if (max_area < area_with_top) {
-					max_area = area_with_top;
 				}
 
 			}
 
-			System.out.println(max_area);
+			while (!st.empty()) {
 
+				area = (testCase - stin.peek()) * st.peek();
+				if (maxarea < area)
+					maxarea = area;
+				stin.pop();
+				st.pop();
+
+			}
+
+			System.out.println(maxarea);
 			inp = in.nextLong();
+			//8 6 2 5 5 4 5 1 6 0
+			//5 1 4 5 6 4 0
 		}
 
 	}
