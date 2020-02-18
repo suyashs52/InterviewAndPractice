@@ -11,6 +11,7 @@ import com.dp.MatrixExponenFibo;
 import com.gfg.RatInMaze;
 import com.jav.pattern.chain.responsibility.ATMDispenseChain;
 import com.jav.pattern.decorator.DrawingBoard;
+import com.jav.pattern.iterator.IteratorDemo;
 import com.spoj.ANARC09A;
 import com.spoj.HISTOGRA;
 import com.spoj.MMASS;
@@ -43,6 +44,7 @@ public class Main {
 		// ATMDispenseChain.code();
 		// RatInMaze.code();
 		// NOKIA.code();
-		DrawingBoard.code();
+		// DrawingBoard.code();
+		IteratorDemo.code();
 	}
 }
