@@ -12,6 +12,7 @@ import com.gfg.RatInMaze;
 import com.jav.pattern.chain.responsibility.ATMDispenseChain;
 import com.jav.pattern.decorator.DrawingBoard;
 import com.jav.pattern.iterator.IteratorDemo;
+import com.jav.pattern.proxy.ProxyDemo;
 import com.spoj.ANARC09A;
 import com.spoj.HISTOGRA;
 import com.spoj.MMASS;
@@ -45,6 +46,8 @@ public class Main {
 		// RatInMaze.code();
 		// NOKIA.code();
 		// DrawingBoard.code();
-		IteratorDemo.code();
+		// IteratorDemo.code();
+		  ProxyDemo.code();
+		 
 	}
 }
