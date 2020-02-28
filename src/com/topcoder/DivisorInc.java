@@ -4,7 +4,7 @@ public class DivisorInc {
 	// https://community.topcoder.com/stat?c=problem_solution&cr=7452866&rd=9823&pm=6186
 	// https://community.topcoder.com/stat?c=problem_statement&pm=6186&rd=9823
 	public static void code() {
-		System.out.println(countOperation(4, 24));
+		System.out.println(countOperation(4, 24)-1);
 		System.out.println(countOperation(4, 576));
 		System.out.println(countOperation(8748, 83462));
 	}
@@ -30,7 +30,7 @@ public class DivisorInc {
 				}
 			}
 		}
-		return dyn[m]-1;
+		return dyn[m];
 
 	}
 }
