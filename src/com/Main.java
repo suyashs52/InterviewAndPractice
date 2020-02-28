@@ -42,13 +42,13 @@ public class Main {
 		// ONP.code1();
 		// ANARC09A.code();
 		// HISTOGRA.code();
-		// DivisorInc.code();
+		DivisorInc.code();
 		// ATMDispenseChain.code();
 		// RatInMaze.code();
 		// NOKIA.code();
 		// DrawingBoard.code();
 		// IteratorDemo.code();
 		// ProxyDemo.code();
-		MaxDistance.code();
+		// MaxDistance.code();
 	}
 }
