@@ -30,7 +30,7 @@ public class DivisorInc {
 				}
 			}
 		}
-		return dyn[m];
+		return dyn[m]-1;
 
 	}
 }
