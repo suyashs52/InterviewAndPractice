@@ -21,7 +21,7 @@ import com.spoj.ONP;
 import com.topcoder.DivisorInc;
 
 public class Main {
-//new
+
 
 	public static void main(String... str) throws Exception {
 		// DecodingDigit.code();
@@ -31,7 +31,7 @@ public class Main {
 		// ArryAnargram.code();
 		// TrappingWater.code();
 		// SortWaveForm.code();
-		// QuickSort.code();
+		 QuickSort.code();
 
 		// System.out.println(Common.ncr(4, 1));
 		// Queue.code();
