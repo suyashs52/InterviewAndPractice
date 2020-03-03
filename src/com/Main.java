@@ -21,6 +21,7 @@ import com.spoj.ONP;
 import com.topcoder.DivisorInc;
 
 public class Main {
+//new
 
 	public static void main(String... str) throws Exception {
 		// DecodingDigit.code();
