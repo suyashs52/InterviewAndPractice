@@ -51,6 +51,7 @@ public class Main {
 		// IteratorDemo.code();
 		// ProxyDemo.code();
 		// MaxDistance.code();
-		Permute.code();
+		// Permute.code();
+		NOKIA.code();
 	}
 }
