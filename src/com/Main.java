@@ -7,6 +7,8 @@ import com.array.Queue;
 import com.chef.COMPILER;
 import com.chef.CricketBatManf;
 import com.chef.NOKIA;
+import com.chef.TACHSTCK;
+import com.chef.TRISQ;
 import com.dp.MatrixExponenFibo;
 import com.gfg.Permute;
 import com.gfg.RatInMaze;
@@ -52,6 +54,8 @@ public class Main {
 		// ProxyDemo.code();
 		// MaxDistance.code();
 		// Permute.code();
-		NOKIA.code();
+		//NOKIA.code();
+		//TRISQ.code();
+		TACHSTCK.code();
 	}
 }
