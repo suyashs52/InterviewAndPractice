@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import com.array.MinSwap;
 import com.array.Queue;
+import com.chef.CIELRCPT;
 import com.chef.COMPILER;
 import com.chef.CricketBatManf;
 import com.chef.NOKIA;
@@ -12,6 +13,7 @@ import com.chef.TRISQ;
 import com.dp.MatrixExponenFibo;
 import com.gfg.Permute;
 import com.gfg.RatInMaze;
+import com.google.Vestigium;
 import com.jav.pattern.chain.responsibility.ATMDispenseChain;
 import com.jav.pattern.decorator.DrawingBoard;
 import com.jav.pattern.iterator.IteratorDemo;
@@ -54,8 +56,10 @@ public class Main {
 		// ProxyDemo.code();
 		// MaxDistance.code();
 		// Permute.code();
-		//NOKIA.code();
-		//TRISQ.code();
-		TACHSTCK.code();
+		// NOKIA.code();
+		// TRISQ.code();
+		// TACHSTCK.code();
+		// CIELRCPT.code();
+		Vestigium.code();
 	}
 }
