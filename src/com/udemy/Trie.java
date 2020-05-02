@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Trie {
+  
+  public static void main(String ... args){
+    System.out.println("test");
+  }
 
 	// has flag to show last char of word
 	// root node
