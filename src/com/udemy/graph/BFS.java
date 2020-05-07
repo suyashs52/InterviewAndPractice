@@ -51,6 +51,10 @@ public class BFS {
 
 	}
 
+	void addLinkedUnidirectedEdge(int i, int j) {
+		
+	}
+
 	void bfs() {
 		for (GraphNode node : nodelist) {
 			if (!node.isVisited()) {
