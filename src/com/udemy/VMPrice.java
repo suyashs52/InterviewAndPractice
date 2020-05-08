@@ -1,60 +1,103 @@
 package com.udemy;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 class VMPrice {
 
 	public static void code() {
 		int n = 25;
-		int[] instances = new int[] { 25, 50, 100 };
-		double[] price = new double[] { 5.0, 4.0, 3.0 };
-		System.out.println(selectVm(150, instances, price));
-		System.out.println(selectVm(75, instances, price));
-		System.out.println(selectVm(10, instances, price));
- 
-		n = 25;
-		instances = new int[] { 10, 25, 50, 100, 500 };
-		price = new double[] { 2.46, 2.58, 2.0, 2.25, 3.0 };
-		System.out.println(selectVm(25, instances, price));
 
+		List<Integer> instances = new ArrayList<Integer>();
+		instances.add(25);
+		instances.add(50);
+		instances.add(100);
+
+		List<Float> price = Arrays.asList(new Float[] { 5.0f, 4.0f, 3.0f });
+
+		instances = Arrays.asList(new Integer[] { 10, 25, 50, 100, 500 });
+
+		price = Arrays.asList(new Float[] { 0.0f, 0.0f, 0.0f, 0.0f, 54.25f });
+
+		System.out.println(interpolate(2, instances, price));
+
+		instances = Arrays.asList(new Integer[] { 10, 49, 177, 364, 608, 669, 850, 966, 1025, 1160, 1259, 1399, 1500 });
+
+		price = Arrays.asList(new Float[] { 1.48f, 5.25f, 7.19f, 11.42f, 14.88f, 17.75f, -1.0f, 46.55f, 58.77f, 60.22f,
+				61.03f, -1.0f, -1.0f });
+
+		System.out.println(interpolate(1635, instances, price));
+		System.out.println(interpolate(1813, instances, price));
+		
 	}
 
-	public static String selectVm(int n, int[] instances, double[] price) {
+	public static String interpolate(int n, List<Integer> instances, List<Float> price) {
+		// Write your code here
+
 		String result = "";
-		int len = instances.length;
+		int len = instances.size();
+
+		if (price.size() < 2) {
+			return String.format("%.2f", price.get(0));
+		}
 
 		int index = search(instances, 0, len - 1, n, 0);
+		boolean valid = true;
+		if (price.get(index) < 0.1 && index < len-1) {
+			valid = false;
+			while (index < len && price.get(index) < 0.1) {
+				index++;
+			}
+		} else if (price.get(index) < 0.1 && index == len-1 ) {
+			valid = false;
+			while (index > 0 && price.get(index) < 0.1) {
+				index--;
+			}
+		} else if (price.get(index) < 0.1) {
+			valid = false;
+			while (index < len && price.get(index) < 0.1) {
+				index++;
+			}
+		}
 
-		if (index < len && instances[index] == n) {
-			return price[index] + "";
+		if (!valid)
+			return String.format("%.2f", price.get(index));
+
+		if (index < len && instances.get(index) == n) {
+			return String.format("%.2f", price.get(index));
+
 		} else if (index == len) {
 			// value largest
-			double m = (price[len - 1] - price[len - 2]) / (instances[len - 1] - instances[len - 2]);
-			m = m * (n - instances[len - 1]);
-			m += price[len - 1];
+			double m = (price.get(index - 1) - price.get(index - 2))
+					/ (instances.get(index - 1) - instances.get(index - 2));
+			m = m * (n - instances.get(index - 1));
+			m += price.get(index - 1);
 			return String.format("%.2f", m);
 		} else if (index == 0) {
-			double m = (price[1] - price[0]) / (instances[1] - instances[0]);
-			m = m * (n - instances[0]);
-			m += price[0];
+			double m = (price.get(1) - price.get(0)) / (instances.get(1) - instances.get(0));
+			m = m * (n - instances.get(0));
+			m += price.get(0);
 			return String.format("%.2f", m);
 		} else {
-			double m = (price[index] - price[index - 1]) / (instances[index] - instances[index - 1]);
-			m = m * (n - instances[index - 1]);
-			m += price[index - 1];
+			double m = (price.get(index) - price.get(index - 1)) / (instances.get(index) - instances.get(index - 1));
+			m = m * (n - instances.get(index - 1));
+			m += price.get(index - 1);
 			return String.format("%.2f", m);
 
 		}
-		 
-		 
+
 	}
 
-	public static int search(int[] arr, int l, int r, int key, int ind) {
+	public static int search(List<Integer> arr, int l, int r, int key, int ind) {
 		if (r >= l) {
 			int mid = l + (r - 1) / 2;
-			if (arr[mid] == key)
+			if (mid > arr.size() - 1)
+				return ind;
+			if (arr.get(mid) == key)
 				return mid;
-			if (arr[mid] > key) {
+			if (arr.get(mid) > key) {
 				ind = l;
 				return search(arr, l, mid - 1, key, ind);
 			} else {
@@ -66,7 +109,7 @@ class VMPrice {
 		return ind;
 	}
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String... args) throws IOException {
 
 		code();
 
