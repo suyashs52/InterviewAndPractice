@@ -40,6 +40,22 @@ public class BFS {
 
 		System.out.println("print bfs from source v1");
 		graph.bfs();
+
+		System.out.println("linked list");
+
+		graph.addLinkedUnidirectedEdge(1, 2);
+		graph.addLinkedUnidirectedEdge(1, 4);
+		graph.addLinkedUnidirectedEdge(2, 3);
+		graph.addLinkedUnidirectedEdge(2, 5);
+		graph.addLinkedUnidirectedEdge(3, 6);
+		graph.addLinkedUnidirectedEdge(3, 10);
+		graph.addLinkedUnidirectedEdge(4, 7);
+		graph.addLinkedUnidirectedEdge(5, 8);
+		graph.addLinkedUnidirectedEdge(6, 9);
+		graph.addLinkedUnidirectedEdge(7, 8);
+		graph.addLinkedUnidirectedEdge(8, 9);
+		graph.addLinkedUnidirectedEdge(9, 10);
+		graph.bfsLinked();
 	}
 
 	void addUnidirectedEdge(int i, int j) {
@@ -52,13 +68,27 @@ public class BFS {
 	}
 
 	void addLinkedUnidirectedEdge(int i, int j) {
-		
+		GraphNode first = nodelist.get(i - 1);
+		GraphNode sec = nodelist.get(j - 1);
+		first.setVisited(false);
+		sec.setVisited(false);
+		first.getNeighbours().add(sec);
+		sec.getNeighbours().add(first);
+
 	}
 
 	void bfs() {
 		for (GraphNode node : nodelist) {
 			if (!node.isVisited()) {
 				bfsVisit(node);
+			}
+		}
+	}
+
+	void bfsLinked() {
+		for (GraphNode node : nodelist) {
+			if (!node.isVisited()) {
+				bfsVisitLinked(node);
 			}
 		}
 	}
@@ -72,6 +102,25 @@ public class BFS {
 			present.setVisited(true);
 			System.out.println(present + " ");
 			ArrayList<GraphNode> neighbours = getNeighbours(present);
+			for (GraphNode gn : neighbours) {
+				if (!gn.isVisited()) {
+					queue.add(gn);
+					gn.setVisited(true);
+				}
+			}
+		}
+
+	}
+
+	private void bfsVisitLinked(GraphNode node) {
+		// track all connected node
+		LinkedList<GraphNode> queue = new LinkedList<GraphNode>();
+		queue.add(node);
+		while (!queue.isEmpty()) {
+			GraphNode present = queue.remove(0);
+			present.setVisited(true);
+			System.out.println(present + " ");
+			ArrayList<GraphNode> neighbours = present.getNeighbours();
 			for (GraphNode gn : neighbours) {
 				if (!gn.isVisited()) {
 					queue.add(gn);
