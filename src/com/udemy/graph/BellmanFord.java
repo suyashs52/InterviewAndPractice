@@ -36,6 +36,8 @@ public class BellmanFord {
 	}
 
 	private void bellmanFord(WeightedNode snode) {
+		// play on edge , update node value on each edge by nodelist-1 time
+		// at last have shortest dist from source on each node
 		snode.setDistance(0);
 		for (int i = 1; i < nodelist.size(); i++) {
 			for (WeightedNode node : nodelist) {
