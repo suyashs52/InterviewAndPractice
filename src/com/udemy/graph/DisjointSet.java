@@ -35,7 +35,7 @@ public class DisjointSet {
 
 	}
 
-	private static DisjointSet union(WeightedNode fnode, WeightedNode snode) {
+	static DisjointSet union(WeightedNode fnode, WeightedNode snode) {
 		DisjointSet d1 = fnode.getSet();
 		DisjointSet d2 = snode.getSet();
 
@@ -66,9 +66,9 @@ public class DisjointSet {
 
 	}
 
-	ArrayList<WeightedNode> node=new ArrayList<WeightedNode>();
+	ArrayList<WeightedNode> node = new ArrayList<WeightedNode>();
 
-	private static void makeset(ArrayList<WeightedNode> nodelist) {
+	static void makeset(ArrayList<WeightedNode> nodelist) {
 		for (WeightedNode node : nodelist) {
 			DisjointSet set = new DisjointSet();
 			set.getNode().add(node);
