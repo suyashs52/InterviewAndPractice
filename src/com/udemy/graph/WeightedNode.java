@@ -11,6 +11,7 @@ public class WeightedNode implements Comparable<WeightedNode> {
 	private boolean isVisited;
 	private WeightedNode parent;
 	private int distance;
+	DisjointSet set;
 
 	public WeightedNode(String name, int index) {
 		this.name = name;
@@ -62,8 +63,7 @@ public class WeightedNode implements Comparable<WeightedNode> {
 	public void setParent(WeightedNode parent) {
 		this.parent = parent;
 	}
- 
-	
+
 	public HashMap<WeightedNode, Integer> getWeightMap() {
 		return weightMap;
 	}
@@ -76,6 +76,14 @@ public class WeightedNode implements Comparable<WeightedNode> {
 		return distance;
 	}
 
+	public DisjointSet getSet() {
+		return set;
+	}
+
+	public void setSet(DisjointSet set) {
+		this.set = set;
+	}
+
 	public void setDistance(int distance) {
 		this.distance = distance;
 	}
@@ -85,10 +93,10 @@ public class WeightedNode implements Comparable<WeightedNode> {
 		return name;
 	}
 
-	
 	@Override
 	public int compareTo(WeightedNode o) {
 		// TODO Auto-generated method stub
 		return this.distance - o.distance;
 	}
+
 }
