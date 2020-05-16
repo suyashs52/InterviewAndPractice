@@ -33,6 +33,9 @@ public class Prims {
 	}
 
 	private void prims(WeightedNode node) {
+		// select a node, mark all node distance to infinite
+		// create max heap queue, add all node , heap top is minimum node
+		// take first node update neighbors distance and so on till queue is empty
 		for (WeightedNode n : nodeList) {
 			n.setDistance(Integer.MAX_VALUE);
 		}
@@ -56,10 +59,9 @@ public class Prims {
 					} // end of if-else
 				} // end of if-else
 			}
-			
 
 		}
-		 // end of for loop
+		// end of for loop
 
 		int cost = 0;
 		for (WeightedNode nodeToCheck : nodeList) {
@@ -67,7 +69,7 @@ public class Prims {
 					+ nodeToCheck.getParent());
 			cost = cost + nodeToCheck.getDistance();
 		}
-		
+
 		System.out.println("\nTotal cost of MST: " + cost);
 	}
 
