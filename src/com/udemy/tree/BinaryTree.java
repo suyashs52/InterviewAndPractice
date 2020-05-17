@@ -58,6 +58,7 @@ public class BinaryTree {
 	}
 
 	private void delete(int val) {
+		//replace last node with current reduce last index
 		int loc = search(val);
 		if (loc == -1) {
 			System.out.println("not delete");
