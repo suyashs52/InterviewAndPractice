@@ -11,7 +11,7 @@ import java.util.TreeSet;
 public class StockPreditionResult {
 	public static void main(String... str) {
 		Integer[] a = new Integer[] { 5, 6, 8, 4, 9, 10, 8, 3, 6, 4 };
-		Integer[] b = new Integer[] { 6, 5, 4 };
+		Integer[] b = new Integer[] { 3, 1, 8 };
 		List<Integer> stockData = Arrays.asList(a);
 		List<Integer> queries = Arrays.asList(b);
 		List<Integer> result = predictAnswer(stockData, queries);
@@ -59,14 +59,14 @@ public class StockPreditionResult {
 					p.rval = sr.peek().rval;
 					p.rind = sr.peek().rind;
 				} else
-					map.put(n1i + 1, new Predic(-1, -1,""));
+					map.put(n1i + 1, new Predic(-1, -1, ""));
 			} else {
 				if (map.containsKey(n1i + 1)) {
 					Predic p = map.get(n1i + 1);
 					p.rval = sr.peek().rval;
 					p.rind = sr.peek().rind;
 				} else
-					map.put(n1i + 1, new Predic(sr.peek().rval, sr.peek().rind,""));
+					map.put(n1i + 1, new Predic(sr.peek().rval, sr.peek().rind, ""));
 			}
 			sr.push(new Predic(stockData.get(n1i), n1i + 1, ""));
 
@@ -81,9 +81,9 @@ public class StockPreditionResult {
 			} else if (p.rval == -1) {
 				result.add(p.lind);
 			} else {
-				if ((q - p.lind) < (q - p.rind)) {
+				if ((q - p.lind) < (p.rind - q)) {
 					result.add(p.lind);
-				} else if ((q - p.lind) == (q - p.rind)) {
+				} else if ((q - p.lind) == (p.rind - q)) {
 					if (p.lval >= p.rval) {
 						result.add(p.lind);
 					} else {
