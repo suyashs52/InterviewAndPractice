@@ -25,7 +25,7 @@ public class BinarySearchTreeLinked {
 		tree.searchForValue(80);
 		System.out.println("\nSearching for value on BST...");
 		tree.searchForValue(60);
-
+		// check this
 		tree.deleteNodeOfBST(80); // Node does not exists
 		tree.printTreeGraphically();
 		tree.deleteNodeOfBST(60);
@@ -59,7 +59,11 @@ public class BinarySearchTreeLinked {
 	}
 
 	private BinaryNode deleteNodeOfBST(BinaryNode node, int value) {
-
+		// node is null no value
+		// value is greater/lesser nav right left
+		// if equal take right next min value replace value
+		// delete right next min value
+		// everytime we set right value after deleting to update it
 		if (node == null) {
 			System.out.println(value + " not found");
 			return null;
