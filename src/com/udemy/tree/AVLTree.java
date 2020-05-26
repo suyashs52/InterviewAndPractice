@@ -79,8 +79,62 @@ public class AVLTree {
 		int balance = checkBalance(node.getLeft(), node.getRight());
 
 		if (balance > 1) {
+			if (checkBalance(node.getLeft().getLeft(), node.getLeft().getRight()) > 0) {
+				// LL condition
+				node = rightRotate(node);
+			} else {
+				// LR rotation
+				//right imblanace tree , left rotation
+				node.setLeft(leftRotate(node.getLeft()));
+				node = rightRotate(node);
+			}
 
+		} else if (balance < -1) {
+			// right
+			// rr
+			if (checkBalance(node.getRight().getRight(), node.getRight().getLeft()) > 0) {
+				node = leftRotate(node);
+			} else {
+				// rl
+				node.setRight(rightRotate(node.getRight()));
+				node = leftRotate(node);
+			}
 		}
+		if (node.getLeft() != null) {
+			node.getLeft().setHeight(calculateHeight(node.getLeft()));
+		}
+		if (node.getRight() != null) {
+			node.getRight().setHeight(calculateHeight(node.getRight()));
+		}
+		node.setHeight(calculateHeight(node));
+		return node;
+	}
+
+	private int calculateHeight(BinaryNode left) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private BinaryNode leftRotate(BinaryNode node) { //right unbalance tree rotate left
+		//			-1 -10- +1=+2
+		//			null	15
+		//			     12   16
+		//10 right set to 12,15 left set to 10
+		//
+		//					15
+		//				10		16
+		//			null   12
+		BinaryNode root = node.getRight();
+		node.setRight(node.getRight().getLeft());
+		root.setLeft(node);
+		node.setHeight(calculateHeight(node));
+		root.setHeight(calculateHeight(root));
+		return root;
+	}
+
+	private BinaryNode rightRotate(BinaryNode node) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	private int checkBalance(BinaryNode left, BinaryNode right) {
@@ -93,6 +147,6 @@ public class AVLTree {
 		} else {
 			return left.getHeight() - right.getHeight();
 		}
-		 
+
 	}
 }
