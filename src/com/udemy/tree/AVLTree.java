@@ -1,5 +1,8 @@
 package com.udemy.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class AVLTree {
 	BinaryNode root;
 
@@ -45,11 +48,41 @@ public class AVLTree {
 
 	private void deleteNodeOfBST(int i) {
 		// TODO Auto-generated method stub
+		//bst level delteion 
+		//avl related rotation
+		
 
 	}
 
 	private void printTreeGraphically() {
 		// TODO Auto-generated method stub
+
+		Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
+		Queue<Integer> level = new LinkedList<Integer>();
+		int cl = 1;
+		queue.add(root);
+		// print level wise , null will not print
+		level.add(1);
+		while (queue.isEmpty() == false) {
+			if (cl == level.peek()) {
+				if (queue.peek() != null) {
+					queue.add(queue.peek().getLeft());
+					queue.add(queue.peek().getRight());
+					level.add(cl + 1);
+					level.add(cl + 1);
+				}
+				System.out.print(queue.remove() + " ");
+				level.remove();
+
+			} else {
+				System.out.println("\n");
+				cl++;
+
+			}
+
+		}
+
+	
 
 	}
 
@@ -87,37 +120,57 @@ public class AVLTree {
 		// left left do RR rotation, left right do RL roation
 
 		node.height = 1 + Math.max(calculateHeight(node.left), calculateHeight(node.right));
+		balance = balance(node);
 
 		if (balance > 1) {
+			// left has more length so do right rotation
+			if (value < node.getLeft().value) { //inserted value is 15
+				// value inserted must be left of left of node so rr rotation RR
+				//				 50
+				//			 25		 null	
+				//		 15		35	 
+				////////rotate 25 to top , 25 right is 50, 25 right is 50 left
+				//			   25
+				//			15		50
+				//				 35		null
+				//		
+				return rightRotate(node);
+				 
 
-			if (checkBalance(node.getLeft().getLeft(), node.getLeft().getRight()) > 0) {
-				// LL condition
-				node = rightRotate(node);
-			} else {
-				// LR rotation
-				// right imblanace tree , left rotation
-				node.setLeft(leftRotate(node.getLeft()));
-				node = rightRotate(node);
+			}else {
+				//inserted value is 35 LR CASE
+				// value inserted must be right of left of node so left right case rotation
+				//rotate last to left then total to right
+				//				 50						50			35
+				//			 25		 null	--->      35	-->   25	50
+				//				35					25
+				//	 put left of node to right rotate then right rotate
+					node.left=leftRotate(node.left);
+				 	return rightRotate(node);
+				
 			}
-
-		} else if (balance < -1) {
-			// right
-			// rr
-			if (checkBalance(node.getRight().getRight(), node.getRight().getLeft()) > 0) {
-				node = leftRotate(node);
-			} else {
-				// rl
-				node.setRight(rightRotate(node.getRight()));
-				node = leftRotate(node);
+		}else if(balance<-1){ //right tree is bigger
+			//	inserted value is left/right of right node
+			//	if on right
+			//	50							60
+			//		60			----> 	50		70
+			//			70
+			if(value>node.getRight().value) {
+				//rotate left to balance
+				return leftRotate(node);
+			}else {
+				//if on left ,right of left rl condition
+			//	50				rotate left 50						55
+			//		60		----> 			   55		-----> 50		60
+			//	  55								60
+				// put node right to right rotate -- rotate left node
+				node.right=rightRotate(node.right);
+				return leftRotate(node);
 			}
+				
+			
 		}
-		if (node.getLeft() != null) {
-			node.getLeft().setHeight(calculateHeight(node.getLeft()));
-		}
-		if (node.getRight() != null) {
-			node.getRight().setHeight(calculateHeight(node.getRight()));
-		}
-		node.setHeight(calculateHeight(node));
+			   
 		return node;
 	}
 
@@ -129,28 +182,39 @@ public class AVLTree {
 	}
 
 	private BinaryNode leftRotate(BinaryNode node) { // right unbalance tree rotate left
-		// -1 -10- +1=+2
-		// null 15
-		// 12 16
-		// 10 right set to 12,15 left set to 10
-		//
-		// 15
-		// 10 16
-		// null 12
-		BinaryNode root = node.getRight();
-		node.setRight(node.getRight().getLeft());
-		root.setLeft(node);
-		node.setHeight(calculateHeight(node));
-		root.setHeight(calculateHeight(root));
-		return root;
+	// 20									30
+//			 30			----> 		20				40
+//		n/25	40					   n/25
+		 
+		BinaryNode right=node.right;
+		BinaryNode temp=right.left;
+		right.left=node;
+		node.right=temp;
+		
+		right.height=Math.max(calculateHeight(right.left),calculateHeight(right.right))+1;
+		node.height=Math.max(calculateHeight(node.left),calculateHeight(node.right))+1;
+		
+		return right;
+		
+		
 	}
 
 	private BinaryNode rightRotate(BinaryNode node) {
-		// TODO Auto-generated method stub
-		return null;
+		// 			20								10
+		//		  10			----> 		5				20
+		//		5	15					   				15
+		BinaryNode left=node.left;
+		BinaryNode temp=left.right;
+		left.right=node;
+		node.left=temp;
+		left.height=Math.max(calculateHeight(left.left),calculateHeight(left.right))+1;
+		node.height=Math.max(calculateHeight(node.left),calculateHeight(node.right))+1;
+		
+		return left;
 	}
 
 	private int checkBalance(BinaryNode left, BinaryNode right) {
+
 		if (left == null && right == null) { // current node is leaf node
 			return 0;
 		} else if (left == null) { // only right node +1 due to blank node is -1;
@@ -160,6 +224,14 @@ public class AVLTree {
 		} else {
 			return left.getHeight() - right.getHeight();
 		}
+
+	}
+
+	int balance(BinaryNode node) {
+		if (node == null)
+			return 0;
+		else
+			return calculateHeight(node.left) - calculateHeight(node.right);
 
 	}
 }
