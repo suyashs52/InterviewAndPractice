@@ -67,7 +67,7 @@ public class AVLTree {
 		if (node == null) {
 			node = new BinaryNode();
 			node.setValue(value);
-			node.setHeight(0);// node is always leaf node
+			node.setHeight(1);// node is always leaf node
 			return node;
 		} else if (value <= node.getValue()) {
 			node.setLeft(insert(node.getLeft(), value));
@@ -77,14 +77,25 @@ public class AVLTree {
 		// avl property
 
 		int balance = checkBalance(node.getLeft(), node.getRight());
+		// there are at most 2 node of a node
+		// disbalance due to right node right node LL rotation
+		// right node left node rotate right last then rotate left all LR roation
+		// check below function left node is smaller then node>right node so rotate as
+		// left is top ,
+		// right node is right of left now right right imblance so rotete left
+		// disbalance due to Left subtree than rotate right, left left/ left right node
+		// left left do RR rotation, left right do RL roation
+
+		node.height = 1 + Math.max(calculateHeight(node.left), calculateHeight(node.right));
 
 		if (balance > 1) {
+
 			if (checkBalance(node.getLeft().getLeft(), node.getLeft().getRight()) > 0) {
 				// LL condition
 				node = rightRotate(node);
 			} else {
 				// LR rotation
-				//right imblanace tree , left rotation
+				// right imblanace tree , left rotation
 				node.setLeft(leftRotate(node.getLeft()));
 				node = rightRotate(node);
 			}
@@ -110,20 +121,22 @@ public class AVLTree {
 		return node;
 	}
 
-	private int calculateHeight(BinaryNode left) {
-		// TODO Auto-generated method stub
-		return 0;
+	private int calculateHeight(BinaryNode node) {
+		if (node == null)
+			return 0;
+		else
+			return node.height;
 	}
 
-	private BinaryNode leftRotate(BinaryNode node) { //right unbalance tree rotate left
-		//			-1 -10- +1=+2
-		//			null	15
-		//			     12   16
-		//10 right set to 12,15 left set to 10
+	private BinaryNode leftRotate(BinaryNode node) { // right unbalance tree rotate left
+		// -1 -10- +1=+2
+		// null 15
+		// 12 16
+		// 10 right set to 12,15 left set to 10
 		//
-		//					15
-		//				10		16
-		//			null   12
+		// 15
+		// 10 16
+		// null 12
 		BinaryNode root = node.getRight();
 		node.setRight(node.getRight().getLeft());
 		root.setLeft(node);
@@ -140,7 +153,7 @@ public class AVLTree {
 	private int checkBalance(BinaryNode left, BinaryNode right) {
 		if (left == null && right == null) { // current node is leaf node
 			return 0;
-		} else if (left == null) {
+		} else if (left == null) { // only right node +1 due to blank node is -1;
 			return -1 * (right.getHeight() + 1);
 		} else if (right == null) {
 			return left.getHeight() + 1;
