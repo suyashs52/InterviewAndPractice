@@ -15,6 +15,30 @@ public class Knapsack {
 		}
 		knapsackFrac(item, capacity);
 
+		// 0/1 kanpsack
+		// profit can be taking first value+ profit of(remaining element)/ 0+profit
+		// from remaining element max value from both
+		int[] profits = { 31, 26, 72, 17 };
+		int[] weights = { 3, 1, 5, 2 };
+		int maxProfit = knapsack01(profits, weights, 7);
+		System.out.println("max profit " + maxProfit);
+
+	}
+
+	private static int knapsack01(int[] profits, int[] weights, int capacity) {
+
+		return knapsack01(profits, weights, capacity, 0);
+	}
+
+	private static int knapsack01(int[] profits, int[] weights, int capacity, int cind) {
+		if (capacity <= 0 || cind < 0 || cind >= profits.length) // terminate condition
+			return 0;
+		int profit1 = 0;
+		if (weights[cind] <= capacity) {
+			profit1 = profits[cind] + knapsack01(profits, weights, capacity - weights[cind], cind + 1);
+		}
+		int profit2 = knapsack01(profits, weights, capacity - weights[cind], cind + 1);
+		return Math.max(profit1, profit2);
 	}
 
 	private static void knapsackFrac(ArrayList<KnapsackEntity> item, int capacity) {
