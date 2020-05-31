@@ -22,12 +22,68 @@ public class Knapsack {
 		int[] weights = { 3, 1, 5, 2 };
 		int maxProfit = knapsack01(profits, weights, 7);
 		System.out.println("max profit " + maxProfit);
+		maxProfit = knapsack01TopDown(profits, weights, 7);
+		System.out.println("max profit " + maxProfit);
+		maxProfit = knapsack01BottomUpNoRecur(profits, weights, 7);
+		System.out.println("max profit " + maxProfit);
 
 	}
 
 	private static int knapsack01(int[] profits, int[] weights, int capacity) {
-
+//take value give max profit , 
+		// take next value make max profit
 		return knapsack01(profits, weights, capacity, 0);
+	}
+
+	private static int knapsack01TopDown(int[] profits, int[] weights, int capacity) {
+		// dp store value in 2d array if found then return it
+		Integer[][] dp = new Integer[profits.length][capacity + 1];
+		return knapsack01(dp, profits, weights, capacity, 0);
+	}
+
+	private static int knapsack01BottomUpNoRecur(int[] profits, int[] weights, int capacity) {
+		if (capacity <= 0 || profits.length == 0 || weights.length != profits.length) // Base case
+			return 0;
+
+		int numberOfRows = profits.length + 1;// adding a dummy row to avoid array index issues
+		Integer[][] dp = new Integer[numberOfRows][capacity + 1];// Create a 2D Array to store all the results
+
+		for (int i = 0; i < numberOfRows; i++) { // Insert 0 in 1st column as it is dummy column to avoid array index
+													// issues
+			dp[i][0] = 0;
+		}
+
+		for (int i = 0; i <= capacity; i++) {// Insert 0 in last row as it is dummy column to avoid array index issues
+			dp[numberOfRows - 1][i] = 0;
+		}
+
+		for (int row = numberOfRows - 2; row >= 0; row--) {
+			for (int column = 1; column <= capacity; column++) {
+				int profit1 = 0, profit2 = 0;
+				if (weights[row] <= column) { // column represents current capacity
+					profit1 = profits[row] + dp[row + 1][column - weights[row]]; // Taking current element
+				}
+				profit2 = dp[row + 1][column]; // Not taking current element
+				dp[row][column] = Math.max(profit1, profit2);
+			}
+		} // end of loop
+		System.out.println(dp);
+		return dp[0][capacity];
+	}
+
+	private static int knapsack01(Integer[][] dp, int[] profits, int[] weights, int capacity, int curr_ind) {
+		if (capacity <= 0 || curr_ind < 0 || curr_ind >= profits.length)
+			return 0;
+		if (dp[curr_ind][capacity] != null) {
+			return dp[curr_ind][capacity];
+		}
+		int profit1 = 0;
+		if (weights[curr_ind] <= capacity) { // taking profit
+			profit1 = profits[curr_ind] + knapsack01(dp, profits, weights, capacity - weights[curr_ind], curr_ind + 1);
+		}
+		int profit2 = knapsack01(dp, profits, weights, capacity - weights[curr_ind], curr_ind + 1);
+		dp[curr_ind][capacity] = Math.max(profit1, profit2);
+		return dp[curr_ind][capacity];
 	}
 
 	private static int knapsack01(int[] profits, int[] weights, int capacity, int cind) {
