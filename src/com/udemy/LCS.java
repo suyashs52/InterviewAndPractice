@@ -39,7 +39,7 @@ public class LCS {
 		int len2 = ca2.length;
 		if (l1 == len1 || l2 == len2) {
 			return 0;
-		}
+		} 
 		int c3 = 0;
 		if (ca[l1] == ca2[l2]) {
 
