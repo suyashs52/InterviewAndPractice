@@ -2,7 +2,7 @@ package com.array;
 
 import org.w3c.dom.NodeList;
 
-class SingleLinkedList {
+class ReverseLinkedList {
 	public static void main(String... str) {
 		int[] arr = new int[] { 1, 2, 3, 4, 5 };
 		SingleLinkedList list = new SingleLinkedList(arr);
