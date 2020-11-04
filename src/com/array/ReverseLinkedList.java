@@ -1,5 +1,7 @@
 package com.array;
 
+import java.io.PrintStream;
+
 import org.w3c.dom.NodeList;
 
 class SingleLinkedList {
@@ -175,5 +177,14 @@ class SingleLinkedList {
 		}
 		return result;
 	}
+	
+	 public static void printListInReverse(ListNode list, PrintStream print) {
+	        // homework
+		 if(list==null) {
+			 return;
+		 }
+		 printListInReverse(list.next, print);
+		 print.print(list);
+	    }
 
 }
