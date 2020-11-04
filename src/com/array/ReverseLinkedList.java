@@ -6,8 +6,8 @@ class SingleLinkedList {
 	public static void main(String... str) {
 		int[] arr = new int[] { 4,5,6,1 ,10,20};
 		SingleLinkedList list = new SingleLinkedList(arr);
-//		list.reverse();
-//		System.out.println(list);
+		list.reverse();
+		System.out.println(list);
 		ListNode head1 = head;
 		
 		list.sortList(head1);
