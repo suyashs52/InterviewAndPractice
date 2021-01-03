@@ -5,7 +5,7 @@ public class MinJump {
 		int arr[] = { 1, 3, 6, 3, 2, 3, 6, 8, 9, 5 };
 		int n;
 
-		// 1->3>6->->9->5 is final answer
+		// 1->3>6->->9->5
 
 		System.out.println(recrSol(arr, 0, arr.length - 1));
 		System.out.println(dynSol(arr,arr.length));
@@ -48,7 +48,7 @@ public class MinJump {
 
 		for (int i = 1; i < n; i++) {
 				jumps[i] =Integer.MAX_VALUE;
-			for (int j = 0; j < i; j++) {
+			for (int j = 0; j < i; j++) {  
 				if(jumps[j]!=Integer.MAX_VALUE && j+arr[j]>=i) {
 					jumps[i] =Math.min(jumps[i], jumps[j]+1);
 					break;
