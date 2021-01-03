@@ -5,7 +5,7 @@ public class MinJump {
 		int arr[] = { 1, 3, 6, 3, 2, 3, 6, 8, 9, 5 };
 		int n;
 
-		// 1->3>6->->9->5
+		// 1->3>6->->9->5 is final answer
 
 		System.out.println(recrSol(arr, 0, arr.length - 1));
 		System.out.println(dynSol(arr,arr.length));
