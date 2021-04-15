@@ -5,6 +5,7 @@ import java.util.List;
 
 public class FrogProb {
 	public static void main(String... str) {
+		//how many path genereated by frog jump
 		// frog can travel n cell: i+1,i+2
 		// for 5 cell 12345,1235,1245,135,1345
 		List<Integer> p = new ArrayList<Integer>();
