@@ -10,8 +10,9 @@ public class FrogProb {
 		List<Integer> p = new ArrayList<Integer>();
 		p.add(1);
 		generate(5, p, new ArrayList<List<Integer>>());
-		
-		System.out.println(count(5,1));
+
+		System.out.println(count(5, 1));
+		System.out.println(countdp(5, 1));
 
 	}
 
@@ -52,6 +53,25 @@ public class FrogProb {
 			return 0;
 
 		return count(n, cur + 1) + count(n, cur + 2);
+	}
+
+	public static int countdp(int n, int cur) {
+		int[] arr = new int[n];
+		arr[0] = arr[1] = 1;
+		for (int i = 2; i < n; i++) {
+			arr[i] = arr[i - 1] + arr[i - 2];
+
+		}
+		System.out.println("test");
+		System.out.println(arr[n - 1]);
+		arr = new int[n];
+		arr[n - 1] =1; arr[n - 2] = 2;
+		for (int i = n - 3; i > 0; i--) {
+			arr[i] = arr[i + 1] + arr[i + 2];
+		}
+
+		System.out.println(arr[1]);
+		return arr[n - 1];
 	}
 
 	public static void travelFrog(int j, int n) {
