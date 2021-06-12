@@ -42,7 +42,7 @@ public class LetterCombination {
 		for (char c : s.toCharArray()) {
 			path.append(c); // add char
 			backtrack(index + 1, path); // add next element
-			path.deleteCharAt(path.length() - 1);
+			path.deleteCharAt(path.length() - 1); //return back to old
 		}
 
 	}
