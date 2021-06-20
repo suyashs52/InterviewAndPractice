@@ -21,6 +21,9 @@ Two patterns : with boundary and without
 
 
         ex: smallest sub array
+        
+        
+        hashmap 
 
 
 
