@@ -1,4 +1,4 @@
-package com.educative;
+package com.educative.mergeinterval;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class IntervalsIntersection {
 
 	public static Interval[] merge(Interval[] arr1, Interval[] arr2) {
 		List<Interval> intervalsIntersection = new ArrayList<Interval>();
-
+		
 		int i = 0;
 		int j = 0;
 		// two array check min time interval

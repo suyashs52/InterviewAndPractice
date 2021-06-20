@@ -1,4 +1,4 @@
-package com.educative;
+package com.educative.mergeinterval;
 
 import java.util.*;
 
@@ -36,7 +36,7 @@ public class InsertInterval {
 	    	mergedIntervals.add(intervals.get(i));
 	    }
 	    
-	    
+	    //(4,7) (10,11)
 	    //(1,2) (4,8) (9,12) insertedval: (6,7) i at (4,8)
 	    while(index<intervals.size() && newInterval.end>=intervals.get(index).start) { //merge untill no overlap
 	    	int st= Math.min(newInterval.start, intervals.get(index).start);
