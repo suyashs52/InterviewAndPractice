@@ -19,5 +19,5 @@ patterns :
 	
 	
  
- 
+ non contigous , compare two value of array/string, find index/value at different location of array
 
