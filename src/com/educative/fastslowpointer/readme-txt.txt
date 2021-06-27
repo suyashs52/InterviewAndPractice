@@ -1,0 +1,8 @@
+Fast and Slow Pointer:
+  
+	
+	
+	
+ 
+ 
+
