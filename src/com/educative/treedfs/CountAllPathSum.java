@@ -56,7 +56,7 @@ public class CountAllPathSum {
 		dfss(root.right, s - root.val, count);
 		dfss(root.left, s, count);
 
-		dfs(root.right, s, count);
+		dfss(root.right, s, count);
 		return found;
 
 	}
