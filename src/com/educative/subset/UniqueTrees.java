@@ -40,7 +40,7 @@ public class UniqueTrees {
 					TreeNode t = new TreeNode(i);
 					t.left = l;
 					t.right = r;
-					result.add(t);
+					result.add(t); // counting sum+=l+r
 				}
 			}
 		}
