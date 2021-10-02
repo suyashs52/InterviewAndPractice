@@ -71,7 +71,7 @@ public class   TreeNode<T> {
      
      boolean isSymmetrical(TreeNode root) {
     	 /* This allows adding null elements to the queue */
-         Queue<TreeNode> q = new LinkedList<TreeNode>(); 
+         LinkedList<TreeNode> q = new LinkedList<TreeNode>(); 
    
          /* Initially, add left and right nodes of root */
          q.add(root.left); 
