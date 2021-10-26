@@ -1,5 +1,5 @@
 package com.educative.heap;
-
+ 
 public class SlidingWindowMedian {
 	MinHeap minHeap = new MinHeap();
 	MaxHeap maxHeap = new MaxHeap();
@@ -81,4 +81,14 @@ public class SlidingWindowMedian {
 			System.out.print(num + " ");
 	}
 
+}
+ 
+interface t{
+	void test();
+}
+abstract class test implements t{
+	public void test(){
+		//logic
+	}
+	
 }

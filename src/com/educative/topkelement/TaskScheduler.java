@@ -13,7 +13,7 @@ public class TaskScheduler {
 
 	public static int scheduleTasks(char[] tasks, int k) {
 		int s = 0;
-		if(tasks.lenght()==0) return s;
+		if(tasks.length ==0) return s;
 
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
 
