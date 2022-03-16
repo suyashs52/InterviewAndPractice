@@ -1,4 +1,4 @@
-package pp.gu.math;
+package pp.gu.recur;
 
 import java.io.*;
 import java.util.ArrayList;
