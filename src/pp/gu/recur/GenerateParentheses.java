@@ -1,4 +1,4 @@
-package pp.gu.math;
+package pp.gu.recur;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
-import pp.gu.math.CountValidParanthesis.FastScanner;
 
 public class GenerateParentheses {
 	public static void main(String[] args) throws java.lang.Exception {
@@ -49,11 +47,11 @@ public class GenerateParentheses {
 			sb[curr] = '{';
 			generate(sb, p, b, po, pc, bo + 1, bc, curr + 1);
 		}
-		if (pc < po) {
+		if (pc < po && (bc == bo)) {
 			sb[curr] = ')';
 			generate(sb, p, b, po, pc + 1, bo, bc, curr + 1);
 		}
-		if (bc < bo) {
+		if (bc < bo || (pc == po)) {
 			sb[curr] = '}';
 			generate(sb, p, b, po, pc, bo, bc + 1, curr + 1);
 		}
