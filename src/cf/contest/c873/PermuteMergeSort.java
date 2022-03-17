@@ -47,7 +47,7 @@ public class PermuteMergeSort {
 		if (end - 1 == 1) {
 			return;
 		}
-		if (start == end)
+		if (start == end-1)
 			return;
 		k = k - 2;
 
