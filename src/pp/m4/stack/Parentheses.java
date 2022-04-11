@@ -1,4 +1,4 @@
-package pp.gu.stack;
+package pp.m4.stack;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,62 +15,52 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /* Name of the class has to be "Main" only if the class is public. */
-public class StackReverse {
-	public static void main(String[] args) throws java.lang.Exception { 
-		
-		
-		Stack<Integer> st = new Stack<>();
-		st.add(1);
-		st.add(2);
-		st.add(3);
-		st.add(4);
-		System.out.println(st);
-		rev(st);
-		System.out.println(st);
-		
-	}
-// 4 3 2 1 
-	private static void rev(Stack<Integer> st) {
-		if(st.isEmpty()) return ;
-		
-		int n=st.pop();
-		
-		rev(st);
-		
-		insertAtBottom(st,n);
-		 
-		
-		
-		
-		
+public class Parentheses {
+
+	public static void main(String[] args) throws java.lang.Exception {
+
+		String s = "()";
+		System.out.println(isValid(s));
+		s = "()[]{}";
+		System.out.println(isValid(s));
+		s = "(]";
+		System.out.println(isValid(s));
+
 	}
 
-	private static void insertAtBottom(Stack<Integer> st, int n) {
-	if(st.empty()) {
-		st.add(n);
-		
-	}else {
-		int k=st.pop();
-		insertAtBottom(st, n);
-		st.add(k);
-	}
-	
-}
-	private static boolean dfs(boolean[] visited, List<List<Integer>> graph, int i) {
-		// TODO Auto-generated method stub
-		if (visited[i])
-			return true;
+	public static boolean isValid(String s) {
+		boolean flag = false;
 
-		visited[i] = true;
+		char[] ch = s.toCharArray();
 
-		List<Integer> g = graph.get(i);
+		Stack<Character> st = new Stack<Character>();
 
-		for (int c : g) {
-			dfs(visited, graph, c);
+		for (Character c : ch) {
+
+			if (c == '}' || c == ']' || c == ')') {
+				if (st.empty())
+					return false;
+				char c1 = st.pop();
+				if (c == '}' && c1 != '{') {
+					return false;
+				} else if (c == ']' && c1 != '[') {
+					return false;
+				} else if (c == ')' && c1 != '(') {
+					return false;
+				}
+			} else {
+				st.add(c);
+			}
 		}
-		
-		return visited[i];
+
+		return st.empty() == true;
+ 
+
 	}
+	//where is edge conditino
+	// when n is odd /even when n is 0
+	
+	
 
 	static class FastScanner {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

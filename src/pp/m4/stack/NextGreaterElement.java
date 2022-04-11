@@ -1,4 +1,4 @@
-package pp.gu.stack;
+package pp.m4.stack;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,52 +15,40 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /* Name of the class has to be "Main" only if the class is public. */
-public class Parentheses {
+public class NextGreaterElement {
 
 	public static void main(String[] args) throws java.lang.Exception {
-
-		String s = "()";
-		System.out.println(isValid(s));
-		s = "()[]{}";
-		System.out.println(isValid(s));
-		s = "(]";
-		System.out.println(isValid(s));
+//https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+		System.out.println(nextLargerElement(new long[] { 1, 3, 2, 4 }, 4));
+		System.out.println(nextLargerElement(new long[] { 1, }, 1));
 
 	}
 
-	public static boolean isValid(String s) {
-		boolean flag = false;
-
-		char[] ch = s.toCharArray();
-
-		Stack<Character> st = new Stack<Character>();
-
-		for (Character c : ch) {
-
-			if (c == '}' || c == ']' || c == ')') {
-				if (st.empty())
-					return false;
-				char c1 = st.pop();
-				if (c == '}' && c1 != '{') {
-					return false;
-				} else if (c == ']' && c1 != '[') {
-					return false;
-				} else if (c == ')' && c1 != '(') {
-					return false;
-				}
+	public static long[] nextLargerElement(long[] arr, int n) {
+		// Your code here
+		long[] res = new long[n];
+		Stack<Integer> st = new Stack<Integer>();
+		st.push(0);
+		for (int i = 1; i < arr.length; i++) {
+			if (arr[i] < arr[st.peek()]) {
+				st.push(i);
 			} else {
-				st.add(c);
+				while (st.isEmpty() == false && arr[i] > arr[st.peek()]) {
+					Integer in = st.pop();
+					res[in] = arr[i];
+				}
+
+				st.push(i);
 			}
 		}
 
-		return st.empty() == true;
- 
+		while (st.isEmpty() == false) {
+			Integer in = st.pop();
+			res[in] = -1;
+		}
 
+		return res;
 	}
-	//where is edge conditino
-	// when n is odd /even when n is 0
-	
-	
 
 	static class FastScanner {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
