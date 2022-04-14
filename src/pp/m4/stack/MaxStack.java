@@ -10,11 +10,11 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /* Name of the class has to be "Main" only if the class is public. */
-public class MinStack {
+public class MaxStack {
 	Stack<Long> st;
 	long min;
 
-	public MinStack() {
+	public MaxStack() {
 		st = new Stack<>();
 		min = ((long) Integer.MAX_VALUE + 1);
 	}
@@ -71,7 +71,7 @@ public class MinStack {
 	public static void main(String[] args) throws java.lang.Exception {
 //https://leetcode.com/problems/min-stack/
 		String[] task = new String[] { "MinStack", "push", "push", "push", "getMin", "pop", "top", "getMin" };
-		MinStack ms = null;
+		MaxStack ms = null;
 
 		task = new String[] { "MinStack", "push", "push", "push", "top", "pop", "getMin", "pop", "getMin", "pop",
 				"push", "top", "getMin", "push", "top", "getMin", "pop", "getMin" };
@@ -80,7 +80,7 @@ public class MinStack {
 		for (String s : task) {
 			switch (s) {
 			case "MinStack":
-				ms = new MinStack();
+				ms = new MaxStack();
 				break;
 			case "push":
 				ms.push(input[i++]);
