@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 
 /* Name of the class has to be "Main" only if the class is public. */
 public class MaxStack {
+	//https://www.hackerrank.com/challenges/maximum-element/problem
 	Stack<Long> st;
 	long min;
 
