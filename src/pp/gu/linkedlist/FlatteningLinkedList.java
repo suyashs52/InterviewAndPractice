@@ -24,26 +24,48 @@ public class FlatteningLinkedList {
 		l2.next = l3;
 		l1.next = l2;
 		l2.bottom = l6;
-		l6.bottom=l7;
+		l6.bottom = l7;
 
 		System.out.println(flatten(l1));
-
+		System.out.println(l1);
 	}
 
 	static ListNode flatten(ListNode root) {
 
+		if (root.next == null)
+			return root;
 		ListNode s = root;
-		// flat means bootom come in next so do it singlewise
-		while (s != null) {
-			ListNode temp = s.next;
+		// flattening should be done bottom wise
+		// root and root.next two list merge them to single list
+		// using recursion
+		ListNode s1 = flatten(root.next);
 
-			if (s.bottom != null) {
-				s.next = s.bottom;
-				s.bottom.next = temp;
-			}
-			s = s.next;
+		// now we have last 2 valid list for each call
+		// merge this to root
+
+		s = merge(s, s1);
+
+		return s;
+	}
+
+	static ListNode merge(ListNode s, ListNode s1) {
+		if (s == null)
+			return s1;
+		if (s1 == null)
+			return s;
+
+		ListNode result;
+
+		if (s.val < s1.val) {
+			result = s;
+			result.bottom = merge(s.bottom, s1);
+		} else {
+			result = s1;
+			result.bottom = merge(s, s1.bottom);
 		}
 
-		return root;
+		result.next = null;
+		return result;
+
 	}
 }
