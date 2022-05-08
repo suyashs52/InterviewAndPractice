@@ -32,11 +32,11 @@ public class QueueUsingStack {
 		top = -1;
 	}
 
-	public void push(int x) {
-		if(pushst.isEmpty() && popst.isEmpty()) {
-			top=x;
+	public void push(int x) { // should add at last
+		if (pushst.isEmpty() && popst.isEmpty()) {
+			top = x;
 			pushst.add(x);
-		} //push:1 2 3
+		} // push:1 2 3
 		else {
 			pushst.push(x);
 		}
@@ -44,11 +44,31 @@ public class QueueUsingStack {
 	}
 
 	public int pop() {
-		return 0;
+
+		if (popst.size() > 0) {
+		
+			return popst.pop();
+
+		} else
+
+		{
+			while (pushst.isEmpty() == false) {
+				popst.push(pushst.pop());
+			}
+			return pop();
+		}
 	}
 
 	public int peek() {
-		return top;
+		if (popst.size() > 0)
+			return popst.peek();
+		else {
+			while (pushst.isEmpty() == false) {
+				popst.push(pushst.pop());
+			}
+			return peek();
+		}
+		 
 	}
 
 	public boolean empty() {

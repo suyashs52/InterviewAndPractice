@@ -1,9 +1,12 @@
 package pp.gu.linkedlist;
 
 public class ListNode {
-	int val;
-	ListNode next;
-	ListNode bottom;
+	public int val;
+	public ListNode next;
+	public ListNode prev;
+	public ListNode bottom;
+	public ListNode random;
+	public ListNode child;
 
 	public ListNode() {
 	}
