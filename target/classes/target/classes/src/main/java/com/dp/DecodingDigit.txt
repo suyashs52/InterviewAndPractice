@@ -1,0 +1,26 @@
+line 1, count,digit(0,6)
+line 1, count,digit(0,2)
+line 1, count,digit(0,2)
+line 2, count,digit(1,1) 
+line 3, count,digit(2,1)
+line 2, count,digit(2,2)
+line 3, count,digit(3,2)
+line 2, count,digit(3,2)
+line 1, count,digit(0,2)
+line 2, count,digit(1,1)
+line 3, count,digit(2,1)
+line 3, count,digit(5,2)
+5
+
+
+1226
+1,226		 						12,26
+1,2,26 				1,22,6			12,2,6     12,26
+ 1,2,2,6 |1,2,26	
+ 
+way to decople 1+d(226) , 12+d(26)
+
+its like fibonacci
+next output depends on prev output
+last point make result
+difference is n-2,n-1 condition
