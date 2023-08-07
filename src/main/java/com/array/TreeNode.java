@@ -13,7 +13,7 @@ public class   TreeNode<T> {
     public T val;
     public   TreeNode left;
     public   TreeNode right;
-    TreeNode(T x) { val = x; }
+    public TreeNode(T x) { val = x; }
     
     public static void main(String... str) {
     	TreeNode root = new TreeNode<Integer>(1);  
