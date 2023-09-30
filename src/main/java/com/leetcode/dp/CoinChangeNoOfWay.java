@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.dp;
 
 import java.util.Arrays;
 
@@ -16,6 +16,80 @@ public class CoinChangeNoOfWay {
         System.out.println(changeTopDown(amount, coins, coins.length - 1, dp));
     }
 
+
+
+    public static int changeTopDown(int amount, int[] coins, int index, int[][] dp) {
+
+        if (amount == 0) return 1;
+        if (index == 0) {
+            //coin 0 is used
+            if (amount >= coins[index] && amount % coins[index] == 0) {
+                return 1;
+            }
+            return 0;
+        }
+
+        if (dp[index][amount] != -1) return dp[index][amount];
+
+        int notTake = changeTopDown(amount, coins, index - 1, dp);
+
+        int take = 0;
+
+        if (amount >= coins[index]) {
+            take = changeTopDown(amount - coins[index], coins, index, dp);
+        }
+
+        dp[index][amount] = take + notTake;
+
+        return dp[index][amount];
+
+    }
+
+    int dfs_start_end(int amount , int[] coins,int coin,int amt, int[][] dp){
+
+        if(amt==0) return 1; //we can able to take all coins
+        if(coin==coins.length-1) {
+            if(coins[coin]<=amt && amt%coins[coin]==0) return 1;
+            return 0;
+        }
+        if(dp[coin][amt]!=-1) return dp[coin][amt];
+
+        // if(coins[coin]>amt) return dfs(amount,coins,coin+1,amt,dp);
+        int take=0;
+        if(coins[coin]<=amt){
+            take=dfs_start_end(amount,coins,coin,amt-coins[coin],dp);
+        }
+
+        int notTake=dfs_start_end(amount,coins,coin+1,amt,dp);
+
+        return dp[coin][amt]=take+notTake;
+
+
+
+    }
+    int dfs_terminateCondition(int amount , int[] coins,int coin,int amt, int[][] dp){
+
+        if(amt==0) return 1; //we can able to take all coins
+        if(coin==coins.length) {
+
+            return 0;
+        }
+        if(dp[coin][amt]!=-1) return dp[coin][amt];
+
+        if(coins[coin]>amt) return dfs_terminateCondition(amount,coins,coin+1,amt,dp); //if amount is less then coin
+        int take=0;
+       // if(coins[coin]<=amt){
+            take=dfs_terminateCondition(amount,coins,coin,amt-coins[coin],dp);
+      //  }
+
+        int notTake=dfs_terminateCondition(amount,coins,coin+1,amt,dp);
+
+        return dp[coin][amt]=take+notTake;
+
+
+
+    }
+
     public static int change(int amount, int[] coins) {
 
         int[][] dp = new int[coins.length][amount + 1];//no of way for given coin and amount
@@ -27,6 +101,7 @@ public class CoinChangeNoOfWay {
             dp[coin][0] = 1;
         }
 
+        //populate coin[0][any amount] no of ways
         for (int amt = 1; amt < amount + 1; amt++) {
 
             if (amt >= coins[0] && amt % coins[0] == 0) { //way is always 1 if we can have n coins[0] for given amount
@@ -60,35 +135,6 @@ public class CoinChangeNoOfWay {
         return dp[coins.length - 1][amount];
 
     }
-
-
-    public static int changeTopDown(int amount, int[] coins, int index, int[][] dp) {
-
-        if (amount == 0) return 1;
-        if (index == 0) {
-            //coin 0 is used
-            if (amount >= coins[index] && amount % coins[index] == 0) {
-                return 1;
-            }
-            return 0;
-        }
-
-        if (dp[index][amount] != -1) return dp[index][amount];
-
-        int notTake = changeTopDown(amount, coins, index - 1, dp);
-
-        int take = 0;
-
-        if (amount >= coins[index]) {
-            take = changeTopDown(amount - coins[index], coins, index, dp);
-        }
-
-        dp[index][amount] = take + notTake;
-
-        return dp[index][amount];
-
-    }
-
     //here no of way we can get given amount using all coins
     public int changeOptimize(int amount, int[] coins) {
         int n = coins.length;
@@ -96,12 +142,12 @@ public class CoinChangeNoOfWay {
         dp[0] = 1;
 
         for (int i = n - 1; i >= 0; i--) { //coins
-            for (int j = coins[i]; j <= amount; j++) {
+            for (int j = coins[i]; j <= amount; j++) {//amount
                 dp[j] += dp[j - coins[i]]; //no of way (dp[j])  when not take current coin, when take current coin (dp[j - coins[i]])
             }
         }
 
-        // return dp[amount];
+        // return dp[amount];-------------1 optimized way
 
 
 //        int[] dp = new int[amount + 1];
@@ -110,13 +156,13 @@ public class CoinChangeNoOfWay {
 //
         for (int i = 0; i < coins.length; i++) { // list of types of coins
             // looping j from 1 works too, as long as you check j bigger than coins[i]
-            for (int j = 1; j <= amount; j++) { // amount
-                if (j >= coins[i]) dp[j] += dp[j - coins[i]];
+          //  for (int j = 1; j <= amount; j++) { // amount
+              //  if (j >= coins[i]) dp[j] += dp[j - coins[i]];
                 for (int k= coins[i]; k <= amount; k++) { // amount
                     dp[k] += dp[k - coins[i]];
                 }
-            }
-            return dp[amount];
+         //   }
+
         }
         return dp[amount];
     }

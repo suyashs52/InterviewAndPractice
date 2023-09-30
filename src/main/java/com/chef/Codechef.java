@@ -1,86 +1,28 @@
-package com.chef;
+/* package codechef; // don't place package name! */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-public class Codechef {
-
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
     static Codechef.FastScanner fs = new Codechef.FastScanner();
 
-    public static void main(String[] args) throws java.lang.Exception {
-
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        // your code goes here
         int n = fs.nextInt();
         for (int i = 0; i < n; i++) {
+            Long j=fs.nextLong();
+            int mod=(int)1e9+7;
+            float remain= (float) (j/5.0);
 
-            int len=fs.nextInt();
-            String s=fs.next();
+            float max= (float) (100.0/remain);
 
-
-            if(s.length()%3==1){
-                System.out.println("YES");
-            }else {
-                int[] a=new int[26];
-                for (int j = 0; j < 26; j++) {
-                    a[j]=-20;
-                }
-                int remainder=s.length()%3;
-                boolean found=false;
-                if(remainder==2){
-                    //aa abcda
-                    for (int j = 0; j < len; j++) {
-                        int index=s.charAt(i)-'a';
-                        int i2=-1;
-                        if(a[index]>0){
-                            i2=j-a[index]+1;
-                        }
-                        if(a[index]==j-1){
-                            found=true;
-                            break;
-                        } else if (a[index]==j-4) {
-                            found=true;
-                            break;
-                        }
-                        a[s.charAt(i)-'a']=j;
-
-
-                    }
-                }
-                else if(remainder==0){
-                    //aaa, aba,
-                    for (int j = 0; j < len; j++) {
-                        int index=s.charAt(i)-'a';
-                        if(a[index]==j-2){
-                            found=true;
-                            break;
-                        } else if (a[index]==j-1) {
-                            found=true;
-                            break;
-                        }
-                        a[s.charAt(i)-'a']=j;
-
-
-                    }
-
-                }
-
-                if(found){
-                    System.out.println("YES");
-                }else {
-                    System.out.println("NO");
-                }
-
-            }
-
-
+            System.out.println((Math.ceil(max)+"").replace(".0",""));
         }
-        // your code goes here
     }
-
 
 
     static class FastScanner {
@@ -112,5 +54,4 @@ public class Codechef {
             return Long.parseLong(next());
         }
     }
-
 }

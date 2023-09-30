@@ -1,7 +1,4 @@
-package com.leetcode;
-
-import java.util.Arrays;
-import java.util.Collections;
+package com.leetcode.bs;
 
 public class MaxRunTimeNComputer {
 

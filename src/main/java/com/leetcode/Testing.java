@@ -1,28 +1,33 @@
 package com.leetcode;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Testing {
 
     public static void main(String[] args) {
 
-        long same = 0l;
-        long opposite = 0l;
-
-        int[] nums = new int[]{2, 3, 6, 1, 9, 2};
-        int x = 5;
-
-        boolean current = (nums[0] & 1) == 0 ? true : false;
-
-        for (int i = 0; i < nums.length; i++) {
-            if ((nums[i] & 1) == 0) { //even
-                if(current){
-                    same += nums[i];
-
-                }else {
-                    same += nums[i];
-                }
-            }
-        }
+        List<Integer> nums=new ArrayList<>();
+        nums.add(1);
+        nums.add(2);
+        nums.add(2);
+        System.out.println(new Testing().maxSubarrays(new int[]{19,19,19,19,19,19,19,19,19,19,19,19,19}));
 
 
     }
+
+    public int maxSubarrays(int[] nums) {
+
+        int n=1;
+        System.out.println("-----");
+        System.out.println(5 & 7);
+        System.out.println(5 & 7 & 1);
+        System.out.println(5 & 7 &1 & 3);
+        System.out.println("------");
+        return n;
+
+    }
+
 }

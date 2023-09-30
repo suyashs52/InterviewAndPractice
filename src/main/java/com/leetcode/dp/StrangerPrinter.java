@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.dp;
 
 import java.util.Arrays;
 
@@ -8,7 +8,8 @@ public class StrangerPrinter {
         System.out.println(new StrangerPrinter().strangePrinter("aaaabbb"));
         System.out.println(new StrangerPrinter().strangePrinter("aba"));
         System.out.println(new StrangerPrinter().strangePrinter("abac"));
-        System.out.println(new StrangerPrinter().strangePrinterBottomUp("abac"));
+        System.out.println(new StrangerPrinter().strangePrinterBottomUp_wrong("abac"));
+        System.out.println(new StrangerPrinter().strangePrinterBottomUp2("abac"));
     }
 
 
@@ -57,21 +58,21 @@ public class StrangerPrinter {
     }
 
 
-    public int strangePrinterBottomUp(String s) {
+    public int strangePrinterBottomUp_wrong(String s) {
 
         int[][] dp = new int[s.length() + 1][s.length() + 1];
 
         for(int i=0;i<s.length();i++){ //row i index
 
 
-            for (int j = 0; j < s.length(); j++) { //column j index
+            for (int j = i; j < s.length(); j++) { //column j index
                 if(i==j){
                     dp[i][j]=1;
                     continue;
                 }
 
                 int sum=s.length()+1;
-                for (int k=i;j<j;k++){ //divide the len into partition
+                for (int k=i;k<j;k++){ //divide the len into partition
                     sum=Math.min(sum, dp[i][k]+dp[k+1][j]);
                 }
                 if(s.charAt(i)==s.charAt(j)){ //if both index char are equal
@@ -86,6 +87,47 @@ public class StrangerPrinter {
 
         return dp[s.length()][s.length()];
 
+
+    }
+
+    private int[][] dp;
+    public int strangePrinter1(String s) {
+        int len = s.length();
+        dp = new int[len + 1][len + 1];
+        return turn(s, 1, len);
+    }
+    private int turn(String s, int i, int j){
+        if(i > j) return 0; //empty string.
+        else if(dp[i][j] > 0) return dp[i][j]; //Cached
+        else{
+            //Give the fall back.
+            dp[i][j] = turn(s, i, j - 1) + 1;
+            for(int k = i; k < j; k++){
+                if(s.charAt(j - 1) == s.charAt(k - 1))
+                    dp[i][j] = Math.min(turn(s, i, k) + turn(s, k + 1, j - 1), dp[i][j]);
+            }
+            return dp[i][j];
+        }
+    }
+    public int strangePrinterBottomUp2(String s) {
+
+        int n = s.length();
+        int[][] dp = new int[n][n];
+
+        for (int i = n-1; i >= 0; --i) { //start from last char in string
+            dp[i][i] = 1; //if single character , so min turn =1
+            for (int j = i+1; j < n; ++j) { //from next char till n
+                dp[i][j] = dp[i][j-1] + 1; //max turn will increase by 1 if use next character
+                for (int k = i; k < j; ++k) { // check the division between i and j
+                    if (s.charAt(k) == s.charAt(j)) { //if in between we find char is same as last character
+                        //partition the group i,k k+1,j-1 dp[i][k]+dp[k+1][j-1] s[j] wont increse the turn
+                        // as this is same as k, assumeing k +1 < j-1 to form valid sub string
+                        dp[i][j] = Math.min(dp[i][j], dp[i][k] + (k+1<=j-1 ? dp[k+1][j-1] : 0));
+                    }
+                }
+            }
+        }
+        return dp[0][n-1]; //return the turn for sub string 0,n-1
 
     }
 }
