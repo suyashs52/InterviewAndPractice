@@ -5,7 +5,7 @@ public class Stack {
 	private int top;
 	private int size;
 
-	public Stack(int size) {
+	public Stack() {
 		this.size = size;
 		a = new int[size];
 		for (int i = 0; i < size; i++)

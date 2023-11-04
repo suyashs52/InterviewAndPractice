@@ -2,28 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5ee33f-9291-406e-bff8-d38f80339361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/MiniMaxDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/SearchInRotatedArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/MaxNoOfEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/MinCostUsingTrainLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/heap/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/str/InterleavingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/string/SubstringLargestVariance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/array/MajorityElement2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/DecodedStringIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/MonotonicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/PascalTriangleii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/SortNumbByNoOf1Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bfs/ValidateBinaryTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bit/PrefixXor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/CountMaxFreqElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/FirstLastPosArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/greedy/SplitArraytoMaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/map/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/math/PoorPigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/Pattern132.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/RemoveDuplicateLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/CoinChangeNoOfWay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/MaxRunTimeNComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/StrangerPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chef/CAESAR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chef/CAESAR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/Codechef$FastScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/Codechef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/JNEXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/JNEXT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/array/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/array/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chef/Codechef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chef/Codechef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfg/dp/ReachAGivenScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfg/dp/ReachAGivenScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/CoinChangeNoOfWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/CoinChangeNoOfWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/MaxRunTimeNComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/MaxRunTimeNComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/StrangerPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/StrangerPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spoj/JNEXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spoj/JNEXT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +68,13 @@
       <recent name="com.chef" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Testing">
-    <configuration name="InterleavingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.str.InterleavingString" />
+  <component name="RunManager" selected="Application.PoorPigs">
+    <configuration name="FirstLastPosArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.bs.FirstLastPosArray" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.str.*" />
+          <option name="PATTERN" value="com.leetcode.bs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.heap.KthLargestElement" />
+    <configuration name="PoorPigs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.math.PoorPigs" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.heap.*" />
+          <option name="PATTERN" value="com.leetcode.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniMaxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.bs.MiniMaxDiff" />
+    <configuration name="PrefixXor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.bit.PrefixXor" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
+          <option name="PATTERN" value="com.leetcode.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrangerPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.StrangerPrinter" />
+    <configuration name="SortNumbByNoOf1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.SortNumbByNoOf1Bits" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
+          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Testing" />
+    <configuration name="SplitArraytoMaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.greedy.SplitArraytoMaxSubArray" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Testing" />
-        <item itemvalue="Application.InterleavingString" />
-        <item itemvalue="Application.KthLargestElement" />
-        <item itemvalue="Application.StrangerPrinter" />
-        <item itemvalue="Application.MiniMaxDiff" />
+        <item itemvalue="Application.PoorPigs" />
+        <item itemvalue="Application.PrefixXor" />
+        <item itemvalue="Application.SortNumbByNoOf1Bits" />
+        <item itemvalue="Application.FirstLastPosArray" />
+        <item itemvalue="Application.SplitArraytoMaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -345,8 +346,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Testing.java</url>
-          <line>20</line>
+          <line>32</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/array/MajorityElement2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/stack/RemoveDuplicateLetter.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/PascalTriangleii.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/DecodedStringIndex.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/DecodedStringIndex.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/DecodedStringIndex.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/bfs/ValidateBinaryTreeNodes.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/stack/Pattern132.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/greedy/SplitArraytoMaxSubArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/bs/FirstLastPosArray.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/SortNumbByNoOf1Bits.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

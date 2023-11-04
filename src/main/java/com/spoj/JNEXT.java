@@ -15,7 +15,7 @@ public class JNEXT {
 		for (int i = 0; i < t; i++) {
 			int n = Integer.parseInt(br.readLine());
 
-			Stack digits = new Stack(n);
+			Stack digits = new Stack();
 			char[] line = br.readLine().toCharArray();
 
 			for (int j = 0; j < line.length; j++) {
