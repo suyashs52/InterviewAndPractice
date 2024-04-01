@@ -38,7 +38,7 @@ class CAESAR {
                 sb.append((char) ('a' + next));
             }
 
-            System.out.println(sb.toString());
+            System.out.println(sb.toString()+"test");
 
 
         }
