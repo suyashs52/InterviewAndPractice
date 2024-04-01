@@ -1,6 +1,6 @@
 package com.array;
 
-public class Queue {
+public class Queue<T> {
 	int front, rear, size;
 	int capacity;
 	int array[];
@@ -52,8 +52,8 @@ public class Queue {
 		return this.array[rear];
 	}
 
-	public static void code() {
-		Queue queue = new Queue(5);
+	public void code() {
+		Queue<T> queue = new Queue<T>(5);
 		queue.enqueue(5);
 		queue.enqueue(10);
 		queue.enqueue(15);

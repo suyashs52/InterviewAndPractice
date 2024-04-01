@@ -1,29 +1,92 @@
 package com.chef;/* package codechef; // don't place package name! */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.StringTokenizer;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Codechef
-{
+class Codechef {
     static Codechef.FastScanner fs = new Codechef.FastScanner();
+    static int[] dp;
 
-    public static void main (String[] args) throws java.lang.Exception
-    {
+    public static void main(String[] args) throws java.lang.Exception {
         // your code goes here
-        int n = fs.nextInt();
-        for (int i = 0; i < n; i++) {
-            Long j=fs.nextLong();
-            int mod=(int)1e9+7;
-            float remain= (float) (j/5.0);
 
-            float max= (float) (100.0/remain);
+        /*
+       3
+3 2
+3 2 4
+3 5
+3 2 4
+4 5
+3 7 8 2
 
-            System.out.println((Math.ceil(max)+"").replace(".0",""));
+
+1
+3 5
+3 2 4
+
+        */
+        System.out.println(1+ 2+ 4+ 8 +16+ 32+ 64);
+
+        int test = fs.nextInt();
+
+        for (int i = 0; i < test; i++) {
+
+            int n = fs.nextInt();
+            int m = fs.nextInt();
+
+
+
+            Set<Integer> set = new HashSet<>();
+
+            int current = 0;
+            int maxGcd = m/2;
+
+            if(m==n){
+                for (int j = 1; j < n; j++) {
+                    System.out.print(j+" ");
+                }
+                System.out.println();
+            }else {
+                int maxlenWithGCD=n/2;
+                if(m<=maxlenWithGCD){
+                    int count=0;
+                    for(int j=maxGcd;j<=n;j+=maxGcd){
+                        System.out.print(j+" ");
+                        count++;
+                        if(count>=m){
+                            break;
+                        }
+
+                    }
+                    System.out.println("");
+                }else{
+                    for (int j = 1; j <= m; j++) {
+                        System.out.println(j+" ");
+                    }
+                    System.out.println();
+                }
+            }
+
+
+            for (Integer j : set) {
+                System.out.print(j + " ");
+            }
+            System.out.println("");
         }
     }
 
+
+    private static int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        } else {
+            return gcd(b, a % b);
+        }
+    }
 
     static class FastScanner {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
