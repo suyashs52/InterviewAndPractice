@@ -5,788 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ee33f-9291-406e-bff8-d38f80339361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/BINGRIDFORCE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/GRAPHROOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/GRAPHROOK1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/MAKE0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/REVERSE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/TAG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chef/dp/EXACTSAVINGS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/CountSubarraysBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/FindUniqueBinaryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/RestoreTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Unique3LenPalindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/KMissingPositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/ArithmaticsSlice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/JumpGame6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/PalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/PowerfulIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/tree/AmountBinarytreeInfected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/AircraftBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Boeing747.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Boeing747Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/EngineBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/IAircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/Wings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/builder/WingsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/singleton/AirforceOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/singleton/AirforceOneWithDoubleCheckedLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creation/singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern_matching/FindBeautifulIndicesArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern_matching/KMPSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern_matching/ZAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/api/AIPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/api/GameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/api/RuleEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/board/TicTacToeBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/game/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/game/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/game/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/game/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewready/game/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GamePlayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/BadDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Cockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Wings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Cockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Wings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IAircraftFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/ICockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16AEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16BEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16BadDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16Cockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/ICockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16AEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16BEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/IAircraftPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/HotAirBalloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/AbstractCorolla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/AbstractCorollaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L_Impl_AsiaPacific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L_Impl_NorthAmerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/Airforce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/C130Hercules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/IAlliancePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/Boeing747.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/BoeingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/BulletProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/LuxuryFittings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/AutopilotFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingAltitudeMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingEngineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingFuelMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingNavigationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/flyweight/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/DroneProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/IDrone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/LongestIdealSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewAndPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/Common.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/Max2Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/Testing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/MajorityElement2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/MinSwap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/PermuteArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/ReverseStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/RotateArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/SingleLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/SortWaveForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/array/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/CAESAR$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/CAESAR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/CHEFTMA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/CIELRCPT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/COMPILER.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/Codechef$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/Codechef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/CricketBatManf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/ARRHALVES$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/ARRHALVES.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/ARRSWAP$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/ARRSWAP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/FARFROMO$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/JAN231C/FARFROMO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/NOKIA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/NameCheck$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/NameCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/SMILEY$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/SMILEY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/TACHSTCK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/TRIPLETMIN$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/TRIPLETMIN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/TRISQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/chef/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/AddTwoFraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/CoinChangeMinCoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/DecodingDigit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/EditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/EggDroping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/LongestIncreasingSubs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/MatrixChainMuliplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/MatrixExponenFibo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/MinJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/SubsetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/TrappingWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/WeightedJobScheduleMaxProfilt$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/WeightedJobScheduleMaxProfilt$Job.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/dp/WeightedJobScheduleMaxProfilt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/bs/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/bs/MaxInBitonicArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/bs/NextLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/bs/RotationCountOfRotatedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/bs/SearchRotatedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/cyclicsort/FindAllDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/cyclicsort/FirstKMissingPositive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/cyclicsort/MissingNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/HappyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/LinkedListCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/LinkedListCycleStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/PalindromicLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/RearrangeList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/fastslowpointer/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/MaximizeCapital.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/MedianOfAStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/NextInterval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/SlidingWindowMedian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/t.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/heap/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/knapsack01/Knapsack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/knapsack01/PartitionSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/knapsack01/PartitionSet2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/knapsack01/Shopping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/knapsack01/SubsetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/kwaymerge/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/kwaymerge/LargestPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/kwaymerge/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/kwaymerge/MergeKSortedLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/kwaymerge/SmallestRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/ConflictingAppointments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/EmployeeFreeTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/InsertInterval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/IntervalsIntersection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/Job.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MaximumCPULoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/Meeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MergeIntervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/mergeinterval/MinimumMeetingRooms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/reversallinkedlist/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/reversallinkedlist/ReverseKSubList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/reversallinkedlist/ReverseLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/reversallinkedlist/ReverseSubList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/reversallinkedlist/RotateList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/CharacterReplacement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/LongestSubstringKDistinct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/MaxFruitCountOf2Types.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/MaxSumSubArrayOfSizeK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/MinSizeSubArraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/MinimumWindowSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/MinimumWindowSubstring2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/NoRepeatSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/ReplacingOnes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/StringAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/slidingwindow/WordConcatination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/EvaluateExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/GenerateParentheses$Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/GenerateParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/LetterCaseStringPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/SubsetWithDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/Subsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/subset/UniqueTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/KClosestElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/KLargestNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/RearrangeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/RearrangeStringKDistanceApart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topkelement/TaskScheduler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/AlienDictionary$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/AlienDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/AllTaskSchedulingOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/MinimumHeightTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/SequenceReconstruction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/SequenceReconstruction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/TaskScheduling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/topological/TopologicalSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treebfs/ConnectAllSiblings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treebfs/LevelOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treebfs/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/CountAllPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/FindAllTreePaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/MaximumPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/PathWithGivenSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/SumOfPathNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/TreeDiameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/treedfs/TreePathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/BackspaceCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/PairWithTargetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/RemoveDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/ShortestWindowSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/SortedArraySquares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/TripletSumCloseToTarget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/TripletSumToZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/educative/twopointer/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/gfg/Permute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/gfg/RatInMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/gfg/dp/ReachAGivenScore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/google/Vestigium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/ClosestPoints$CompareY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/ClosestPoints$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/ClosestPoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/CostOfTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/CostOfTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/MaxOrderVolume$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/MaxOrderVolume$Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/MaxOrderVolume.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/NoPrefixSet$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/NoPrefixSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/OpeningHospitalResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/Predic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/StockPreditionResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/SuperStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/SuperStack$st.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/SuperStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/Trie_Contact$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/Trie_Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/TurnstileResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/hr/ds/li.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/ArryAnargram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/AvgHgstMrks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/Median2SortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/ATMDispenseChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/Currency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/DispenseChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/FiftyRsDispense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/TenRsDispense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/chain/responsibility/TwentyRsDispense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/decorator/DrawHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/decorator/DrawRiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/decorator/DrawTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/decorator/DrawingBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/decorator/DrawingBoardAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/factory/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/factory/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/factory/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/factory/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/factory/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/CollectionOfDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/IteratorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/IteratorGenerics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/IteratorOfDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/ListOfDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/iterator/ListOfDoubleIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/proxy/AccessLimitingTextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/proxy/CachedTextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/proxy/ProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/proxy/RemoteTextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/jav/pattern/proxy/TextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/AllNodesKDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/AllPossibleFullBinaryTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/AllPossibleFullBinaryTree$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/AllPossibleFullBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/CourseSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/EventualSafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/KnightProbability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/LCPalindrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/LetterCombination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/LongestAirthmeticsSubseq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/MinAsciiDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/MinSpeedArriveTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/SquareRootNumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/Testing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/ValidBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/Way2ExpressIntegerSumOfPower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/DecodedStringIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/MonotonicArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/PascalTriangleii$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/PascalTriangleii$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/PascalTriangleii.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/SortNumbByNoOf1Bits$Pairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/array/SortNumbByNoOf1Bits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/backtrack/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/backtrack/Combinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/backtrack/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/ValidateBinaryTreeNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/WordBreak$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/WordBreak$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/WordBreak$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/WordBreak$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bfs/WordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bit/PrefixXor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/FirstLastPosArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/MaxRunTimeNComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/MiniMaxDiff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/MissingElementInSorted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/SearchInRotatedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/SearchInRotatedArray2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/bs/UniqueBinarySearch2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/CoinChangeNoOfWay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/IntegerBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/MaxNoOfEvents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/MinCostUsingTrainLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/NbrOfLIS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/NoOfMusicPlaylist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/PredictTheWinner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/SmallestSufficientTeam$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/SmallestSufficientTeam$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/SmallestSufficientTeam$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/SmallestSufficientTeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/StrangerPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/WordBreak$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/WordBreak$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/WordBreak$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/WordBreak$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/dp/WordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/greedy/SplitArraytoMaxSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/heap/KthLargestElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/linkedlist/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/linkedlist/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/map/Bucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/map/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/map/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/math/MinSecToEqualize$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/math/MinSecToEqualize$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/math/MinSecToEqualize$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/math/MinSecToEqualize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/math/PoorPigs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/stack/Add2Number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/stack/Pattern132.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/stack/RemoveDuplicateLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/str/InterleavingString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/string/SubstringLargestVariance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/trie/WordBreak$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/trie/WordBreak$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/trie/WordBreak$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/trie/WordBreak$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/leetcode/trie/WordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/mettle/MaxDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/rec/FrogProb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/rec/KSubset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/rec/Polygon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/rec/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/rec/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/ANARC09A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/HISTOGRA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/JNEXT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/MMASS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/spoj/ONP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/topcoder/DivisorInc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/tree/KDistanceNode$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/tree/KDistanceNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Knapsack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Knapsack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/KnapsackEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/LCS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/NavigateMaze$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/NavigateMaze$QueueNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/NavigateMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/PaintCeiling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Pairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Region.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/SelectingStock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/SharedInterest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/SharedInterest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/SharedInterest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/StockSolution$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/StockSolution$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/StockSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/VMPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/faang/ArrayIndices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/BFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/BellmanFord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/Dijkshtra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/DisjointSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/FloydWarshall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/GraphNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/Kruskal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/Kruskal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/Prims.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/SSSPBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/Topological.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/UndirectedEdge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/graph/WeightedNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/BinaryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/BinarySearchTreeLinked.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/BinaryTreeLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/com/udemy/tree/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1651/Playoff$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1651/Playoff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1656/GoodPairs$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1656/GoodPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1656/RationalResistance$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1656/RationalResistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/D1388535$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/D1388535.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/MarinAntiCoprimePermutation$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/MarinAntiCoprimePermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/MarinandPhotoshoot$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1658/MarinandPhotoshoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1660/VasyaandCoins$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c1660/VasyaandCoins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c873/PermuteMergeSort$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/contest/c873/PermuteMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/p/lc/bt/DistributeCookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/p/lc/bt/TransferRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/p/lc/dp/ClimbingStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/ChunksToMakeSorted$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/ChunksToMakeSorted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/FindUniqueBinaryString$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/FindUniqueBinaryString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/MaximumGap$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/MaximumGap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/MinSwapKTogether$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/MinSwapKTogether.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/RangeSumQuery$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/RangeSumQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/RotateArray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/RotateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SearchIn2DMatrix$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SearchIn2DMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SumBeautyArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SumOfSubArray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SumOfSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SumOfSubMatrix$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/SumOfSubMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/TrappingRainWater$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/array/TrappingRainWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/Permutation$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/PermutationSequence$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/PermutationSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/PermutationsDuplicate$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/backtracking/PermutationsDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/MaxAdjacentSum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/MaxAdjacentSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/StairCase$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/StairCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/Subset$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/Subset$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/Subset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/SubsetSum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/SubsetSum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/SubsetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/dp/WorkerAssignment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/CheckDirectedCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/ConnectedComponent$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/ConnectedComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/DFS$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/NumIslands$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/NumIslands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/Topologic$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/Topologic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/TraverseGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/WordLadder$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/graph/WordLadder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/CommonPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/CopyListWithRandomPointer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/FlattenMultilevelDoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/FlatteningLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/LengthLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/LinkListReverse$LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/LinkListReverse$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/LinkListReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/MergeKSortedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/PalindromeLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/RemoveLoopLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/ReorderList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/ReverseLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/ReverseLinkedListK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/ReverseNodeskGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/linkedlist/SegregateEvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/CountValidParanthesis$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/CountValidParanthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/CountingPrimes$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/CountingPrimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/DivisiblePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/EquallyDistriGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/FourDivisors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/LCDPuzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/LCMChallenge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/LetterCombination$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/LetterCombination$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/LetterCombination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/MakingTeams$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/MakingTeams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/NestedGCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/PowXN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/PrimesProduct$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/math/PrimesProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/DecodingString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/GenerateBracket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/GenerateParentheses$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/GenerateParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/KnightWalk$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/KnightWalk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/Matrix01$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/Matrix01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/ParenthesisExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/RottingOranges$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/recur/RottingOranges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/AllocateBooks$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/AllocateBooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/CollectingNumbers$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/CollectingNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/CountDistinctPairsDifferenceK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/CountPairsGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FindPairGivenDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FindSmallestGoodBase$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FindSmallestGoodBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FirstandLast$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FirstandLast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FirstandLastPos$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/FirstandLastPos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/KeyPairSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/KthSmallest$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/KthSmallest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/KthSmallestMatrix$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/KthSmallestMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/LongSubWithoutRepeat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/MaxConsecutiveOnes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/Minimize3SortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/MinimumWindowSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/NthNumMadePrimeDigits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/OnlyRepeatingElement$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/OnlyRepeatingElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/PlaceCows$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/PlaceCows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/Quadriplet4Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/RotatedSortedArray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/RotatedSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/SingleElement$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/SingleElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/SquareRoot$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/SquareRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/SubarrayGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/gu/search/Triplet3Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/BitwiseNumbersRange$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/BitwiseNumbersRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/HammingDistance$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/HammingDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/MagicFormulas$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/MagicFormulas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/Numbersof1Bits$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/Numbersof1Bits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/PowerofTwo$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/PowerofTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/SingleNumber2$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/SingleNumber2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/SingleNumber3$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/SingleNumber3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/XorQuerySubarray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/bit/XorQuerySubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/ABCDEF$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/ABCDEF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/CustomSortString$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/CustomSortString$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/CustomSortString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/FactoryMachines$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/FactoryMachines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/KClosestPointsOrigin$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/KClosestPointsOrigin$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/KClosestPointsOrigin$Triplet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/KClosestPointsOrigin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/LengthUnsortedSubarray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/LengthUnsortedSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/ManhatanDistance$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/ManhatanDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxDifference$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxIndex$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxWtDiff$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MaxWtDiff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MergeSortedArray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/MergeSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/NextPermutation$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/NextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SortedByEquation$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SortedByEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SortingArrayByFrequency$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SortingArrayByFrequency$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SortingArrayByFrequency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SquareSortedArray$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/search/SquareSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/BubbleSort$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/InsertionSort$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/MergeSort$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/TroubleSort$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m2/sort/TroubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/BinaryTreeFromPreOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/BinaryTreeToBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/DeleteBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/KthSmallestBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/LargestBST$bst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/LargestBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/ValidateBinarySearch$isbst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/bst/ValidateBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/BooleanMatrix$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/BooleanMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/ConsecutiveArrayElements$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/ConsecutiveArrayElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/GridIllumination$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/GridIllumination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/KeyPair$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/KeyPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LargestSubarray0Sum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LargestSubarray0Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LargestSubarrayKSum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LargestSubarrayKSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LongestConsecutiveSequence$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/LongestConsecutiveSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/MaxPointOnLine$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/MaxPointOnLine$pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/MaxPointOnLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SonyaQueries$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SonyaQueries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SubArraySumEqualsK$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SubArraySumEqualsK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/Subarray0Sum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/Subarray0Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SubstringofAllWords$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SubstringofAllWords$pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/hash/SubstringofAllWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/FirstNegativeInteger$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/FirstNegativeInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/GenerateBinaryNumbers$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/GenerateBinaryNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/QueueUsingStack$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/QueueUsingStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/SlidingWindowMaximum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/SlidingWindowMaximum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/StackusingQueues$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/queue/StackusingQueues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/LargestRectangleHistogram$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/LargestRectangleHistogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MaxStack$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MaxStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MaximalRectangle$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MaximalRectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MinStack$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/NeedAllOnes$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/NeedAllOnes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/NextGreaterElement$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/NextGreaterElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/Parentheses$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/Parentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/RemoveDuplicateLetters$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/RemoveDuplicateLetters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/StackReverse$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/StackReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/SumofSubarrayMinimums$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/stack/SumofSubarrayMinimums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/BinaryTreeDLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/FoldableBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/InorderLevelOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/MakeBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/MidDistanceBetween2Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/RightView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/SerializeDeseraializeData$index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/SerializeDeseraializeData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/VerticalSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/VerticalTraversal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/VerticalTraversal$pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m4/tree/VerticalTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m6/dp/LCIS$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/pp/m6/dp/LCIS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/sortsearch/ModulusSum$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewAndPractice/sortsearch/ModulusSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/array/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/array/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chef/Codechef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chef/Codechef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/EventualSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/topological/EventualSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/MinSpeedArriveTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bs/MinSpeedArriveTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spoj/JNEXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spoj/JNEXT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/array/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/array/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/array/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/array/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/array/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/array/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chef/JAN231C/ARRHALVES.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chef/JAN231C/ARRHALVES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/SquareRootNumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/SquareRootNumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spoj/JNEXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spoj/JNEXT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/dp/DecodingDigit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/cyclicsort/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/heap/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/mergeinterval/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/slidingwindow/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/treebfs/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/treedfs/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/educative/twopointer/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/java/com/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/dp/DecodingDigit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/cyclicsort/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/heap/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/mergeinterval/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/slidingwindow/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/treebfs/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/treedfs/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/educative/twopointer/readme-txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/main/java/com/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/builder/IAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/builder/IAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chef/CAESAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chef/CAESAR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/array/CountSubarraysBounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/array/CountSubarraysBounds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/AircraftBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Boeing747.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Boeing747Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/EngineBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/IAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Wings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/WingsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/AirforceOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/AirforceOneWithDoubleCheckedLocking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/Client.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -796,6 +97,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -820,7 +122,7 @@
   "keyToString": {
     "Application.CountSubarraysBounds.executor": "Run",
     "Application.ReorderList.executor": "Run",
-    "Application.Test.executor": "Debug",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -832,10 +134,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.pattern.creation.builder" />
-      <recent name="com.interviewready.api" />
-      <recent name="com.interviewready.game" />
-      <recent name="com.interviewready.board" />
+      <recent name="com.LLD.pattern.structural.facade" />
+      <recent name="com.LLD.pattern.structural.bridge" />
+      <recent name="com.LLD.pattern.creation.abstract_factory" />
+      <recent name="com.LLD.pattern.creation.factory" />
+      <recent name="com.LLD.pattern.creation.prototype" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Testing" />
@@ -848,7 +151,7 @@
       <recent name="com.leetcode.trie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountSubarraysBounds">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chef.Codechef" />
       <module name="InterviewAndPractice" />
@@ -916,9 +219,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.CountSubarraysBounds" />
         <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Codechef" />
         <item itemvalue="Application.EXACTSAVINGS" />
       </list>
@@ -1346,34 +649,6 @@
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>65</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ReorderList.java</url>
           <line>78</line>
           <option name="timeStamp" value="205" />
@@ -1393,7 +668,37 @@
           <line>16</line>
           <option name="timeStamp" value="215" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InterviewAndPractice$Test.ic" NAME="Test Coverage Results" MODIFIED="1714126374086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.bs.*</FILTER>
+    </SUITE>
   </component>
 </project>
