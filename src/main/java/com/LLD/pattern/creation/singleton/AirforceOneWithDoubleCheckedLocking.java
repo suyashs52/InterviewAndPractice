@@ -6,7 +6,8 @@ public class AirforceOneWithDoubleCheckedLocking {
     private volatile static AirforceOneWithDoubleCheckedLocking onlyInstance;
 
     // Make the constructor private so its only accessible to
-    // members of the class.
+    // members of the class. 
+    
     private AirforceOneWithDoubleCheckedLocking() {
     }
 
