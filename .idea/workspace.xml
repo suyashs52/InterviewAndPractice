@@ -5,89 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ee33f-9291-406e-bff8-d38f80339361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/BadDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Cockpit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/Boeing747Wings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Cockpit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/F16Wings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IAircraftFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/ICockpit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/abstract_factory/IWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16AEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16BEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16BadDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16Cockpit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/F16Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/ICockpit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/factory/IEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16AEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16BEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/F16Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/prototype/IAircraftPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/HotAirBalloon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/adapter/IAircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/AbstractCorolla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/AbstractCorollaImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L_Impl_AsiaPacific.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/bridge/Corolla_L_Impl_NorthAmerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/Airforce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/C130Hercules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/composite/IAlliancePart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/Boeing747.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/BoeingDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/BulletProof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/IAircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/decorator/LuxuryFittings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/AutopilotFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingAltitudeMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingEngineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingFuelMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/facade/BoeingNavigationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/flyweight/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/DroneProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/structural/proxy/IDrone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/LongestIdealSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/AbstractRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/FireDetectedRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/FireHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/LowFuelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/chain_of_responsibility/LowFuelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/InstrumentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/LandingGear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/LandingGearDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/command/LandingGearUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/AirForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/AirForceIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/Boeing747.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/CobraGunship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/iterator/JetsIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/mediator/ControlTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/mediator/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/mediator/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/memento/BlackBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/observer/ControlTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/observer/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/observer/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/observer/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/AirborneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/CrashState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/IPilotActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/LandState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/NorRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/ParkedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/TaxiState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/strategy/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/strategy/ISort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/strategy/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/template/AbstractPreFlightCheckList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/template/F16PreFlightCheckList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/Airforce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/BetterF16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/Boeing747.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/DemonstrationDoubleDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/IAircraftVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/MetricsVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/visitor/PriceVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/bit/NoOfWonderfulSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/builder/IAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LLD/pattern/creation/builder/IAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chef/CAESAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chef/CAESAR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/array/CountSubarraysBounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/array/CountSubarraysBounds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Aircraft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/AircraftBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Boeing747.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Boeing747Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/EngineBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/IAircraft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/Wings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/builder/WingsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/AirforceOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/AirforceOneWithDoubleCheckedLocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pattern/creation/singleton/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LLD/pattern/creation/singleton/AirforceOneWithDoubleCheckedLocking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/LLD/pattern/creation/singleton/AirforceOneWithDoubleCheckedLocking.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +99,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Application.CountSubarraysBounds.executor": "Run",
+    "Application.NoOfWonderfulSubstring.executor": "Debug",
     "Application.ReorderList.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.com.LLD.pattern.behaviour.state.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -134,30 +116,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.LLD.pattern.structural.facade" />
-      <recent name="com.LLD.pattern.structural.bridge" />
-      <recent name="com.LLD.pattern.creation.abstract_factory" />
-      <recent name="com.LLD.pattern.creation.factory" />
-      <recent name="com.LLD.pattern.creation.prototype" />
+      <recent name="com.LLD.pattern.behaviour.state" />
+      <recent name="com.LLD.pattern.behaviour.iterator" />
+      <recent name="com.LLD.pattern.behaviour.command" />
+      <recent name="com.LLD.pattern.behaviour.observer" />
+      <recent name="com.LLD.pattern.behaviour.chain_of_responsibility" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Testing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.LLD.pattern.behaviour.state" />
       <recent name="com.pattern.creation.builder" />
       <recent name="com.pattern_matching" />
       <recent name="com.chef" />
       <recent name="com.leetcode.bfs" />
-      <recent name="com.leetcode.trie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chef.Codechef" />
+  <component name="RunManager" selected="Application.NoOfWonderfulSubstring">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LLD.pattern.behaviour.chain_of_responsibility.Client" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chef.*" />
+          <option name="PATTERN" value="com.LLD.pattern.behaviour.chain_of_responsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,25 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EXACTSAVINGS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chef.dp.EXACTSAVINGS" />
+    <configuration name="NoOfWonderfulSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.bit.NoOfWonderfulSubstring" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chef.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.linkedlist.ReorderList" />
-      <module name="InterviewAndPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.linkedlist.*" />
+          <option name="PATTERN" value="com.leetcode.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,13 +186,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.LLD.pattern.behaviour.state.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LLD.pattern.behaviour.state.Client" />
+      <module name="InterviewAndPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LLD.pattern.behaviour.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoOfWonderfulSubstring" />
+        <item itemvalue="Application.com.LLD.pattern.behaviour.state.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CountSubarraysBounds" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.Codechef" />
-        <item itemvalue="Application.EXACTSAVINGS" />
       </list>
     </recent_temporary>
   </component>
@@ -692,6 +674,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
           <line>76</line>
           <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/ParkedState.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/F16.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/bit/NoOfWonderfulSubstring.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="251" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
