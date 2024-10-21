@@ -6,8 +6,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import static java.lang.StringTemplate.STR;
-
 public class LongRunningTaskIntrrupt implements Callable<LongRunningTaskIntrrupt.TaskResposne> {
 
     private final String name;
@@ -28,7 +26,7 @@ public class LongRunningTaskIntrrupt implements Callable<LongRunningTaskIntrrupt
 
 
     @Override
-    public TaskResposne call()  {
+    public TaskResposne call() {
         long startTime = System.currentTimeMillis();
         print("Started");
         int noOfSec = 0;
@@ -39,7 +37,7 @@ public class LongRunningTaskIntrrupt implements Callable<LongRunningTaskIntrrupt
             {
                 throwIntrruptedException();
             }
-            print(STR."Working..\{noOfSec}");
+            print("Working..{" + noOfSec + "}");
 
             try {
                 Thread.sleep(Duration.ofSeconds(1)); //this will terinate immediently when intrrupt called
@@ -60,12 +58,12 @@ public class LongRunningTaskIntrrupt implements Callable<LongRunningTaskIntrrupt
 
     private void throwIntrruptedException() {
         print("Intrrupted ");
-        throw new RuntimeException(STR."\{name} : Intrrupted  ");
+        throw new RuntimeException("{" + name + "} : Intrrupted  ");
     }
 
     private void throwExceptionOnFailure() {
         print("Failed ");
-        throw new RuntimeException(STR."\{name} :Failed ");
+        throw new RuntimeException("{" + name + "} :Failed ");
     }
 
     private void print(String message) {

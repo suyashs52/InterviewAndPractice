@@ -5,25 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ee33f-9291-406e-bff8-d38f80339361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/AvgWeatherTaskScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/LongRunningTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/LongRunningTaskIntrrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ScopeValuePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ScopeValueTaskScopePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ScopeValueThreadPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/StructureScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/StructureScopeOnFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/StructureScopeOnSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ThreadLocalInheritablePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ThreadLocalInitializerPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ThreadLocalPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/ThreadLocalSimplePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/backtrack/SumAllSubsetXORTotals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/FindMaximumSumNodeValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/MaxBitWiseXorSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/tree/SumDistancesTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/BadSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/CorrectSemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/EmpSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/IncorrectSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/InterruptExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/MissedSignalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/NonReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/thread/basic/RaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/leetcode/backtrack/SumAllSubsetXORTotals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/leetcode/dp/FindMaximumSumNodeValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/leetcode/dp/MaxBitWiseXorSubset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/leetcode/tree/SumDistancesTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/BadSynchronization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/CorrectSemaphoreExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/CorrectSemaphoreExample$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/CorrectSemaphoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/Deadlock$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/Deadlock$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/Deadlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/Demonstration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/EmpSynchronized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/IncorrectSynchronization$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/IncorrectSynchronization$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/IncorrectSynchronization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/InterruptExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/InterruptExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/MissedSignalExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/MissedSignalExample$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/MissedSignalExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/NonReentrantLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/RaceCondition$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/RaceCondition$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/learn/thread/basic/RaceCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/thread/ScalibiltyTestVirtualThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/thread/ScalibiltyTestVirtualThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_prll/NetworkCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_prll/NetworkCaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_prll/UserRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_prll/UserRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_test/NetworkCaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_test/NetworkCaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/LongRunningTaskIntrrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency/LongRunningTaskIntrrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/ScalibiltyTestVirtualThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/ScalibiltyTestVirtualThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_prll/NetworkCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_prll/NetworkCaller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_prll/UserRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_prll/UserRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_test/NetworkCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/http_delay_test/NetworkCaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/LongRunningTaskIntrrupt$TaskResposne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/LongRunningTaskIntrrupt$TaskResposne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/LongRunningTaskIntrrupt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/LongRunningTaskIntrrupt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/ScopeValueTaskScopePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/thread/structure_concurrency/ScopeValueTaskScopePlay.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +94,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AvgWeatherTaskScope.executor": "Run",
+    "Application.BadSynchronization.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.CorrectSemaphoreExample.executor": "Run",
     "Application.CountSubarraysBounds.executor": "Run",
+    "Application.Demonstration.executor": "Run",
+    "Application.FindMaximumSumNodeValues.executor": "Run",
     "Application.HttpPlay.executor": "Run",
+    "Application.IncorrectSynchronization.executor": "Run",
+    "Application.InterruptExample.executor": "Run",
     "Application.LongRunningTask.executor": "Run",
     "Application.LongRunningTaskIntrrupt.executor": "Run",
+    "Application.MaxBitWiseXorSubset.executor": "Debug",
+    "Application.MissedSignalExample.executor": "Run",
     "Application.NoOfWonderfulSubstring.executor": "Debug",
+    "Application.NonReentrantLock.executor": "Run",
     "Application.ReorderList.executor": "Run",
     "Application.ScalabiltyTest.executor": "Run",
     "Application.ScalibiltyTestVirtualThread.executor": "Run",
@@ -73,6 +119,7 @@
     "Application.StructureScopeOnFailure.executor": "Run",
     "Application.StructureScopeOnSuccess.executor": "Run",
     "Application.StructureTaskScope.executor": "Run",
+    "Application.SumDistancesTree.executor": "Debug",
     "Application.Test.executor": "Run",
     "Application.ThreadLocalInheritablePlay.executor": "Run",
     "Application.ThreadLocalInitializerPlay.executor": "Run",
@@ -81,12 +128,14 @@
     "Application.com.LLD.pattern.behaviour.state.Client.executor": "Run",
     "Application.learn.thread.ScalabiltyTest.executor": "Run",
     "Application.learn.thread.http_delay_prll.HttpPlay.executor": "Run",
+    "Application.learn.thread.structure_concurrency.Demonstration.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/suyashkumarsingh/eclipse-workspace/InterviewAndPractice/src/main/java/learn/thread/http_delay_prll",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "/Users/suyashkumarsingh/eclipse-workspace/InterviewAndPractice/src/main/java/learn/thread/structure_concurrency",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
@@ -101,6 +150,7 @@
       <recent name="com.LLD.pattern.behaviour.command" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learn/thread/structure_concurrency" />
       <recent name="$PROJECT_DIR$/src/main/java/learn/thread/http_delay_prll" />
       <recent name="$PROJECT_DIR$/src/main/java/learn/thread" />
       <recent name="Testing" />
@@ -113,13 +163,13 @@
       <recent name="com.chef" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScopeValueTaskScopePlay">
-    <configuration name="ScopeValuePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.thread.structure_concurrency.ScopeValuePlay" />
+  <component name="RunManager">
+    <configuration name="MaxBitWiseXorSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.MaxBitWiseXorSubset" />
       <module name="InterviewAndPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.thread.structure_concurrency.*" />
+          <option name="PATTERN" value="com.leetcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,74 +177,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeValueTaskScopePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.thread.structure_concurrency.ScopeValueTaskScopePlay" />
-      <module name="InterviewAndPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.thread.structure_concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScopeValueThreadPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.thread.structure_concurrency.ScopeValueThreadPlay" />
-      <module name="InterviewAndPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.thread.structure_concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalInheritablePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.thread.structure_concurrency.ThreadLocalInheritablePlay" />
-      <module name="InterviewAndPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.thread.structure_concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalSimplePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.thread.structure_concurrency.ThreadLocalSimplePlay" />
-      <module name="InterviewAndPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.thread.structure_concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ScopeValuePlay" />
-      <item itemvalue="Application.ScopeValueTaskScopePlay" />
-      <item itemvalue="Application.ScopeValueThreadPlay" />
-      <item itemvalue="Application.ThreadLocalInheritablePlay" />
-      <item itemvalue="Application.ThreadLocalSimplePlay" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScopeValueTaskScopePlay" />
-        <item itemvalue="Application.ScopeValueThreadPlay" />
-        <item itemvalue="Application.ScopeValuePlay" />
-        <item itemvalue="Application.ThreadLocalInheritablePlay" />
-        <item itemvalue="Application.ThreadLocalSimplePlay" />
+        <item itemvalue="Application.MaxBitWiseXorSubset" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,6 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680954606585</updated>
+      <workItem from="1729264657161" duration="6068000" />
     </task>
     <servers />
   </component>
@@ -632,28 +627,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>187</line>
+          <line>47</line>
           <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>193</line>
-          <option name="timeStamp" value="236" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="237" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="246" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/LLD/pattern/behaviour/state/ParkedState.java</url>
@@ -669,6 +644,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/bit/NoOfWonderfulSubstring.java</url>
           <line>43</line>
           <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Test.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/SumDistancesTree.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/SumDistancesTree.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/SumDistancesTree.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/dp/MaxBitWiseXorSubset.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

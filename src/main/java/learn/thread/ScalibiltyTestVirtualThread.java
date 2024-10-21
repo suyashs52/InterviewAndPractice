@@ -6,18 +6,18 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
+
 public class ScalibiltyTestVirtualThread {
 
 
     private static void handleUserRequest() {
-        System.out.println(STR."Starting Thread: \{Thread.currentThread()}");
+        System.out.println(String.format("Starting Thread: {}",Thread.currentThread()));
         try {
             Thread.sleep(1000); //1 sec sleep
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(STR."Ending Thread: \{Thread.currentThread()}");
-
+        System.out.println(String.format("Ending Thread: {}",Thread.currentThread()));
     }
 //
 //    public static void main(String[] args) {

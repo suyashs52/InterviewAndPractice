@@ -14,13 +14,15 @@ public class NetworkCaller {
     }
 
     public String makeCall(int sec) throws URISyntaxException, IOException {
-        System.out.println(STR."\{callName} :MAKE CALL: \{Thread.currentThread()}");
+        System.out.println(String.format("{+" + callName + "} :MAKE CALL: {}", Thread.currentThread()));
+        System.out.println();
 
-        URI uri = new URI(STR."http://httpbin.org/delay/\{sec}");
+        URI uri = new URI(String.format("http://httpbin.org/delay/{}", sec));
         try (InputStream stream = uri.toURL().openStream()) {
             return new String(stream.readAllBytes());
-        }finally {
-            System.out.println(STR."\{callName} :END  CALL: \{Thread.currentThread()}");
+        } finally {
+            System.out.println(String.format("{+" + callName + "} :End CALL: {}", Thread.currentThread()));
+
 
         }
     }

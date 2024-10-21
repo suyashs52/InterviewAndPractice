@@ -19,16 +19,16 @@ public class UserRequestHandler implements Callable {
             String result = CompletableFuture.supplyAsync(this::dbCall, executor)
                     .thenCombine(CompletableFuture.supplyAsync(this::restCall, executor)
                             , (resultDb, resultRest) -> {
-                                return STR."[\{resultDb},\{resultRest}]";
+                                return "[{" + resultDb + "},{" + resultRest + "}]";
                             })//But once we combine these two.  I want to be able to process the results
                     .thenApply(next -> {
                         //both db call and rest call have completed
                         String r = externalCall();
-                        return STR."[\{next},---<>,\{r}]";
+                        return "[{" + next + "},---<>,{" + r + "}]";
 
                     })// the input is the return value from the previous  future get that is concatenation of 2
                     .join();//return the result when complete, it blocking get and join block the thread
-            //but virtual thread this is no issue 
+            //but virtual thread this is no issue
 
             System.out.println(result);
             return result;
@@ -51,7 +51,7 @@ public class UserRequestHandler implements Callable {
                     })
                     .collect(Collectors.joining(","));
             System.out.println(result);
-            return STR."[\{result}]";
+            return "[{" + result + "}]";
         }
     }
 
@@ -66,7 +66,7 @@ public class UserRequestHandler implements Callable {
             String result = String.format("[%s,%s]", dbVal.get(), restVal.get());
 
             long end = System.currentTimeMillis();
-            System.out.println(STR."time = \{end - start}");
+            System.out.println("time = {" + (end - start) + "}");
             System.out.println(result); //time is 5.6sec
             return result;
 
@@ -82,7 +82,7 @@ public class UserRequestHandler implements Callable {
         String result = String.format("[%s,%s]", resultDb, resultRest);
 
         long end = System.currentTimeMillis();
-        System.out.println(STR."time = \{end - start}");
+        System.out.println("time = {" + (end - start) + "}");
         System.out.println(result);
         return result;
     }
